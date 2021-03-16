@@ -1,0 +1,113 @@
+/* Couleurs 
+Violet (primaire) #9356DC
+Rose (secondaire) #FF79DA
+Turquoise (tertiaire) #99E2D0 */
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/Font-Roboto/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("/Font-Roboto/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("/Font-Roboto/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Bold Condensed";
+    src: url("/Font-Roboto/Roboto/Roboto-BoldCondensed.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url("/Font-Roboto/Roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url("/Font-Roboto/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Thin";
+    src: url("/Font-Roboto/Roboto/Roboto-Thin.ttf");
+}
+
+html, body {
+    margin: 0;
+    font-family: Roboto Bold, sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0 0 10px rgb(175, 175, 175);
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+
+.logo-omf {
+    padding: 20px;
+}
+
+.block-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    height: 60px;
+    font-size: 16px;
+    color: #414141;
+}
+
+.block-de-titres {
+    padding: 50px;
+    margin-top: 0;
+    text-align: center;
+    height: 100%;
+    background-color: rgb(245, 245, 245)
+}
+
+.fa-map-marker-alt {
+    font-size: 25px;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.txt-position {
+    font-family: Roboto Bold, sans-serif;
+}
+
+.txt-reservez {
+    font-family: Roboto Bold, sans-serif;
+    margin-top: 0px;
+}
+
+.txt-decouvrez {
+    font-family: Roboto Thin, sans-serif;
+    color: dimgray;
+} 
+
+.btn-explorer {
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+    width: auto;
+    border-radius: 50px;
+    padding: 12px 17px;
+    border: 0;
+    font-size: 14px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    box-shadow: 0 5px 10px rgb(215, 215, 215);
+}
+
+.txt-fonctionnement {
+    margin-left: 20px;
+}
