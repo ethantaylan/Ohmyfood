@@ -47,7 +47,7 @@ header {
     display: flex;
     width: 100%;
     justify-content: center;
-    box-shadow: 0 0 10px rgb(175, 175, 175);
+    box-shadow: 0 0 5px rgb(175, 175, 175);
     align-items: center;
     z-index: 1;
     position: relative;
@@ -68,7 +68,7 @@ header {
 }
 
 .block-de-titres {
-    padding: 50px;
+    padding: 35px;
     margin-top: 0;
     text-align: center;
     height: 100%;
@@ -86,7 +86,7 @@ header {
 }
 
 .txt-reservez {
-    font-family: Roboto Bold, sans-serif;
+    font-family: Roboto Black, sans-serif;
     margin-top: 0px;
 }
 
@@ -110,4 +110,59 @@ header {
 
 .txt-fonctionnement {
     margin-left: 20px;
+}
+
+.numbers {
+    font-family: Roboto Medium;
+    font-size: 10px;
+    padding: 5px 8px;
+    color: white;
+    border-style: none;
+    border-radius: 50px;
+    background-color: #9356DC;
+    position: absolute;
+    margin-left: -10px;
+}
+
+.box-style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.icone-plus-txt {
+    box-shadow: 0 5px 10px rgb(215, 215, 215);
+    border-radius: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;  
+}
+
+.block-fonctionnement {
+    margin-left: 25px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fa-mobile-alt,
+.fa-list,
+.fa-store {
+    color: dimgray;
+    font-size: 17px;
+    padding-right: 20px;
+}
+
+.txt-style {
+    font-family: Roboto Bold;
+    font-size: 14px;
+    padding: 8px;
 }
