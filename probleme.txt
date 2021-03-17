@@ -1,1 +1,4 @@
 Texte choisissez un restaurant trop proche de l'icone 'telephone'
+hover sur l'icone dans fonctionnement qui ne change pas de couleurs.
+(Il faut passer la souris sur l'icone et non pas sur la boite)
+Hover effect pb sur .box-restaurant(Nouveau se met en bas)
