@@ -4,8 +4,14 @@ Rose (secondaire) #FF79DA
 Turquoise (tertiaire) #99E2D0 */
 
 @font-face {
+    font-family: "Shrikhand";
+    src: url("Shrikhand-Regular.ttf");
+}
+
+@font-face {
     font-family: "Roboto";
     src: url("Font-Roboto/Roboto/Roboto-Regular.ttf");
+    font-weight: 300;
 }
 
 @font-face {
@@ -169,12 +175,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 20px;
 }
 .img {
     width: 100%;
     object-fit: cover;
-    height: auto;
+    height: 200px;
     border-top-right-radius: 13px;
     border-top-left-radius: 13px;
 }
@@ -185,6 +191,7 @@ header {
     width: 90%;
     box-shadow: 0 0 5px rgb(175, 175, 175);
     border-radius: 13px;
+    margin: 10px;
 }
 
 .txt-box,
@@ -210,4 +217,30 @@ header {
 .fa-heart {
     padding-top: 5px;
     font-size: 22px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+}
+ol {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    height: 150px;
+    color: white;
+    margin: 0;
+}
+
+.fa-utensils,
+.fa-hands-helping {
+    margin-right: 10px;
+}
+
+.logo-footer {
+    font-family: Shrikhand, sans-serif;
 }
