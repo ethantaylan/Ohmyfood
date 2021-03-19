@@ -48,6 +48,7 @@ html, body {
     margin: 0;
     font-family: Roboto Bold, sans-serif;
     max-width: 768px;
+    min-width: 320px;
 }
 
 header {
@@ -212,11 +213,6 @@ header {
     position: relative;
 }
 
-.txt-box,
-.txt--box {
-
-}
-
 .txt--box {
     font-family: Roboto, sans-serif;
     font-weight: 300;
@@ -243,39 +239,47 @@ label input[type="checkbox"] {
 }
 
 .custom-checkbox .fa-heart {
-    color: #9356DC;
-    position: absolute;
-    top: 0.4em;
-    left: -1.25em;
-    font-size: 0.75em;
+    color: tomato;
+	background-clip: text;
+	background-color: linear-gradient(0.25turn, #30CFD0 -25%, #330867 50%);
+    font-size: 30px;
+    position: relative;
+    top: 10px;
 }
 
 .custom-checkbox .heart-empty {
     color: black;
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
 }
 
-.custom-checkbox .heart-full {
+.custom-checkbox .heart {
     opacity: 0;
-    transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.3s;
 }
 
-.custom-checkbox:hover .heart-full {
-    opacity: 0.5;
-}
-
-input[type="checkbox"]:checked ~ .heart-full {
+.custom-checkbox:hover .heart{
     opacity: 1;
 }
 
-.fa-heart {
-    padding-top: 5px;
-    font-size: 22px;
+.custom-checkbox:hover .heart-empty{
+    opacity: 0;
+}
+
+.custom-checkbox input[type="checkbox"]:checked ~ .heart {
+    opacity: 1;
+}
+
+.custom-checkbox input[type="checkbox"]:checked ~ .heart-empty {
+    opacity: 0;
 }
 
 footer {
     width: 100%;
     background-color: rgb(50, 50, 50);
 }
+
 ol {
     font-family: Roboto, sans-serif;
     font-weight: 300;
