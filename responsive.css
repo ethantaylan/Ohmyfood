@@ -1,0 +1,27 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    body {
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .block-fonctionnement {
+        display: flex;
+        flex-direction: row;
+    }
+    .numbers {
+        position: sticky;
+    }
+    
+    .box-style {
+    margin: 10px;
+    }
+
+    .block-restaurants {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .box-restaurants {
+        width: 40%;
+    }
+}

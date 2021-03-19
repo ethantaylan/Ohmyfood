@@ -47,8 +47,7 @@ Turquoise (tertiaire) #99E2D0 */
 html, body {
     margin: 0;
     font-family: Roboto Bold, sans-serif;
-    max-width: 768px;
-    min-width: 320px;
+    margin: 0 auto;
 }
 
 header {
@@ -66,6 +65,7 @@ header {
 }
 
 .block-position {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,6 +73,11 @@ header {
     height: 60px;
     font-size: 16px;
     color: #414141;
+}
+
+.body {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .block-de-titres {
@@ -160,7 +165,6 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* width: 85%; */
     margin: 20px;
 }
 
@@ -172,12 +176,6 @@ header {
     margin-left: 30px;
     display: flex;
     position: absolute;
-}
-
-.fa-mobile-alt:hover {
-}
-
-.fa-list:hover {
 }
 
 .txt-style {
@@ -239,19 +237,18 @@ label input[type="checkbox"] {
 }
 
 .custom-checkbox .fa-heart {
-    color: tomato;
-	background-clip: text;
-	background-color: linear-gradient(0.25turn, #30CFD0 -25%, #330867 50%);
     font-size: 30px;
     position: relative;
     top: 10px;
 }
 
 .custom-checkbox .heart-empty {
-    color: black;
     position: absolute;
     font-size: 30px;
     top: 10px;
+}
+
+.heart {
 }
 
 .custom-checkbox .heart {
@@ -328,6 +325,7 @@ li:hover {
 
 .icone-plus-txt:hover {
     background-color: hsla(269, 100%, 91%, 0.308);
+    cursor: pointer;
 }
 
 .nouveau {
