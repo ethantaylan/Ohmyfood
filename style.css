@@ -121,6 +121,10 @@ header {
     box-shadow: 0 5px 10px rgb(215, 215, 215);
 }
 
+.box-style > .numbers {
+    
+}
+
 .txt-fonctionnement,
 .txt-restaurants {
     margin-left: 20px;

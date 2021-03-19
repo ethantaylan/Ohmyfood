@@ -21,6 +21,15 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
+    .txt-restaurants {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .txt-fonctionnement {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
     .box-restaurants {
         width: 40%;
     }
