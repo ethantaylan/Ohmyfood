@@ -83,7 +83,7 @@ header {
 }
 
 .fa-map-marker-alt {
-    font-size: 25px;
+    font-size: 18px;
     padding: 20px;
     padding-left: 0;
 }
@@ -110,7 +110,7 @@ header {
     padding: 12px 17px;
     border: 0;
     font-size: 14px;
-    background: linear-gradient(#FF79DA, #9356DC);
+    background: linear-gradient(0.50turn, #FF79DA -15%, #9356DC);
     color: white;
     box-shadow: 0 5px 10px rgb(215, 215, 215);
 }
@@ -146,12 +146,12 @@ header {
     padding-bottom: 15px;
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    background-color: rgb(245, 245, 245);
 }
 
-.icone-plus-txt:hover > svg { 
-    /* je choisis tous les SVG qui sont dans la classe icone-plus-txt:hover */
+.box-style:hover > svg { 
     color: #9356DC;
 }
 
@@ -168,7 +168,9 @@ header {
 .fa-store {
     color: dimgray;
     font-size: 17px;
-    /* padding-right: 20px; */
+    margin-left: 30px;
+    display: flex;
+    position: absolute;
 }
 
 .fa-mobile-alt:hover {
@@ -180,7 +182,10 @@ header {
 .txt-style {
     font-family: Roboto Bold;
     font-size: 14px;
-    padding: 8px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .block-restaurants {
@@ -225,6 +230,41 @@ header {
 
 .txt-padding {
     padding: 15px;
+}
+
+label input[type="checkbox"] {
+    display: none;
+}
+
+.custom-checkbox {
+    margin-left: 2em;
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-checkbox .fa-heart {
+    color: #9356DC;
+    position: absolute;
+    top: 0.4em;
+    left: -1.25em;
+    font-size: 0.75em;
+}
+
+.custom-checkbox .heart-empty {
+    color: black;
+}
+
+.custom-checkbox .heart-full {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.custom-checkbox:hover .heart-full {
+    opacity: 0.5;
+}
+
+input[type="checkbox"]:checked ~ .heart-full {
+    opacity: 1;
 }
 
 .fa-heart {
