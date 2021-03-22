@@ -4,8 +4,14 @@
 @import spaces
 @import variables
 
-.shadow
-    box-shadow: 0 0 5px rgb(175, 175, 175)
+.width
+    width: 100%
+
+.nav-shadow
+    box-shadow: 0 8px 20px rgb(200, 200, 200)
+
+.radius 
+    border-radius: 20px
 
 .black
     font-family: Roboto Black, sans-serif
@@ -29,6 +35,7 @@ header
     align-items: center
     z-index: 1
     position: relative
+    box-shadow: 0 0 8px rgb(200, 200, 200)
 
 .block-position 
     width: 100%
@@ -36,12 +43,13 @@ header
     @include justify-center(alignement)
     align-items: center
     background-color: rgb(235, 235, 235)
-    height: 60px
+    height: 50px
     font-size: 16px
     color: #414141
+    .txt-loc
+        font-size: 15px
 
 .block-de-titres 
-    padding: 35px
     margin-top: 0
     text-align: center
     height: 100%
@@ -57,3 +65,14 @@ header
         background: linear-gradient(0.50turn, #FF79DA -15%, #9356DC)
         color: white
         box-shadow: 0 5px 10px rgb(215, 215, 215)
+
+.block-restaurant
+    display: flex
+    flex-direction: column
+    width: 100%
+    text-align: center
+    .firstnav
+        display: flex
+        width: 100%
+        font-size: 15px
+        box-sizing: border-box

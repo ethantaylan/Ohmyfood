@@ -1,9 +1,3 @@
-@media screen and (max-width: 769px) {
-  /* line 2, ../sass/_responsive.sass */
-  body {
-    background-color: red;
-  }
-}
 @font-face {
   font-family: "Shrikhand";
   src: url("/ressources/Font-Roboto/Roboto/Roboto-Regular.ttf");
@@ -108,37 +102,47 @@
 }
 
 /* line 7, ../sass/main.sass */
-.shadow {
-  box-shadow: 0 0 5px #afafaf;
+.width {
+  width: 100%;
 }
 
 /* line 10, ../sass/main.sass */
+.nav-shadow {
+  box-shadow: 0 8px 20px #c8c8c8;
+}
+
+/* line 13, ../sass/main.sass */
+.radius {
+  border-radius: 20px;
+}
+
+/* line 16, ../sass/main.sass */
 .black {
   font-family: Roboto Black, sans-serif;
 }
 
-/* line 13, ../sass/main.sass */
+/* line 19, ../sass/main.sass */
 .bold {
   font-family: Roboto Bold, sans sans-serif;
 }
 
-/* line 16, ../sass/main.sass */
+/* line 22, ../sass/main.sass */
 .regular {
   font-family: Roboto, sans-serif;
 }
 
-/* line 19, ../sass/main.sass */
+/* line 25, ../sass/main.sass */
 .thin {
   font-family: Roboto Thin, sans-serif;
 }
 
-/* line 22, ../sass/main.sass */
+/* line 28, ../sass/main.sass */
 .justify-center {
   display: flex;
   justify-content: center;
 }
 
-/* line 26, ../sass/main.sass */
+/* line 32, ../sass/main.sass */
 header {
   display: flex;
   flex-flow: row wrap;
@@ -146,9 +150,10 @@ header {
   align-items: center;
   z-index: 1;
   position: relative;
+  box-shadow: 0 0 8px #c8c8c8;
 }
 
-/* line 33, ../sass/main.sass */
+/* line 40, ../sass/main.sass */
 .block-position {
   width: 100%;
   display: flex;
@@ -157,20 +162,23 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #ebebeb;
-  height: 60px;
+  height: 50px;
   font-size: 16px;
   color: #414141;
 }
+/* line 49, ../sass/main.sass */
+.block-position .txt-loc {
+  font-size: 15px;
+}
 
-/* line 43, ../sass/main.sass */
+/* line 52, ../sass/main.sass */
 .block-de-titres {
-  padding: 35px;
   margin-top: 0;
   text-align: center;
   height: 100%;
   background-color: whitesmoke;
 }
-/* line 49, ../sass/main.sass */
+/* line 57, ../sass/main.sass */
 .block-de-titres .btn-explorer {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
@@ -182,4 +190,19 @@ header {
   background: linear-gradient(0.5turn, #FF79DA -15%, #9356DC);
   color: white;
   box-shadow: 0 5px 10px #d7d7d7;
+}
+
+/* line 69, ../sass/main.sass */
+.block-restaurant {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+/* line 74, ../sass/main.sass */
+.block-restaurant .firstnav {
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  box-sizing: border-box;
 }
