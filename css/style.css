@@ -1,0 +1,348 @@
+/* Couleurs 
+Violet (primaire) #9356DC
+Rose (secondaire) #FF79DA
+Turquoise (tertiaire) #99E2D0 */
+
+@font-face {
+    font-family: "Shrikhand";
+    src: url("/ressources/Font-Roboto/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/ressources/Font-Roboto/Roboto/Roboto-Regular.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("/ressources/Font-Roboto/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("/ressources/Font-Roboto/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Bold Condensed";
+    src: url("/ressources/Font-Roboto/Roboto/Roboto-BoldCondensed.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url("/ressources/Font-Roboto/Roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url("/ressources/Font-Roboto/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Thin";
+    src: url("/ressources/Font-Roboto/Roboto/Roboto-Thin.ttf");
+}
+
+html, body {
+    margin: 0;
+    font-family: Roboto Bold, sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 0 0 5px rgb(175, 175, 175);
+    align-items: center;
+    z-index: 1;
+    position: relative;
+}
+
+.logo-omf {
+    padding: 20px;
+}
+
+.block-position {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    height: 60px;
+    font-size: 16px;
+    color: #414141;
+}
+
+.body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.block-de-titres {
+    padding: 35px;
+    margin-top: 0;
+    text-align: center;
+    height: 100%;
+    background-color: rgb(245, 245, 245)
+}
+
+.fa-map-marker-alt {
+    font-size: 18px;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.txt-position {
+    font-family: Roboto Bold, sans-serif;
+}
+
+.txt-reservez {
+    font-family: Roboto Bold, sans-serif;
+    margin-top: 0px;
+}
+
+.txt-decouvrez {
+    font-family: Roboto Thin, sans-serif;
+    color: dimgray;
+} 
+
+.btn-explorer {
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+    width: auto;
+    border-radius: 50px;
+    padding: 12px 17px;
+    border: 0;
+    font-size: 14px;
+    background: linear-gradient(0.50turn, #FF79DA -15%, #9356DC);
+    color: white;
+    box-shadow: 0 5px 10px rgb(215, 215, 215);
+}
+
+.box-style > .numbers {
+    
+}
+
+.txt-fonctionnement,
+.txt-restaurants {
+    margin-left: 20px;
+}
+
+.numbers {
+    font-family: Roboto Medium;
+    font-size: 10px;
+    padding: 5px 8px;
+    color: white;
+    border-style: none;
+    border-radius: 50px;
+    background-color: #9356DC;
+    position: absolute;
+    left: 10px;
+}
+
+.box-style {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.icone-plus-txt {
+    box-shadow: 0 5px 10px rgb(215, 215, 215);
+    border-radius: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.box-style:hover > svg { 
+    color: #9356DC;
+}
+
+.block-fonctionnement {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.fa-mobile-alt,
+.fa-list,
+.fa-store {
+    color: dimgray;
+    font-size: 17px;
+    display: flex;
+    position: absolute;
+}
+
+.txt-style {
+    font-family: Roboto Bold;
+    font-size: 14px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-restaurants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+
+.box-restaurants {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    box-shadow: 0 0 5px rgb(175, 175, 175);
+    border-radius: 13px;
+    margin: 10px;
+    position: relative;
+}
+
+.txt--box {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+
+.block-align-txt {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-padding {
+    padding: 15px;
+}
+
+label input[type="checkbox"] {
+    display: none;
+}
+
+.custom-checkbox {
+    margin-left: 2em;
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-checkbox .fa-heart {
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.custom-checkbox .heart-empty {
+    position: absolute;
+    font-size: 30px;
+    top: 10px;
+}
+
+.heart {
+}
+
+.custom-checkbox .heart {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.custom-checkbox:hover .heart{
+    opacity: 1;
+}
+
+.custom-checkbox:hover .heart-empty{
+    opacity: 0;
+}
+
+.custom-checkbox input[type="checkbox"]:checked ~ .heart {
+    opacity: 1;
+}
+
+.custom-checkbox input[type="checkbox"]:checked ~ .heart-empty {
+    opacity: 0;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+}
+
+ol {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 100%;
+    color: white;
+    margin: 0;
+}
+li {
+    margin: 5px;
+}
+
+.fa-hands-helping {
+    margin-right: 10px;
+    text-align: center;
+    width: 20px;
+}
+
+.fa-utensils {
+    margin-right: 17px;
+    text-align: center;
+    width: 20px;
+}
+
+.logo-footer {
+    font-family: Shrikhand, sans-serif;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.box-restaurants:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-explorer:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icone-plus-txt:hover {
+    background-color: hsla(269, 100%, 91%, 0.308);
+    cursor: pointer;
+}
+
+.nouveau {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 10px 15px;
+    background-color: rgb(212, 255, 233);
+    color: rgb(100, 250, 200);
+}
