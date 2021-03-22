@@ -50,15 +50,7 @@ html, body {
     margin: 0 auto;
 }
 
-header {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    box-shadow: 0 0 5px rgb(175, 175, 175);
-    align-items: center;
-    z-index: 1;
-    position: relative;
-}
+
 
 .logo-omf {
     padding: 20px;
@@ -121,14 +113,6 @@ header {
     box-shadow: 0 5px 10px rgb(215, 215, 215);
 }
 
-.box-style > .numbers {
-    
-}
-
-.txt-fonctionnement,
-.txt-restaurants {
-    margin-left: 20px;
-}
 
 .numbers {
     font-family: Roboto Medium;
@@ -249,9 +233,6 @@ label input[type="checkbox"] {
     position: absolute;
     font-size: 30px;
     top: 10px;
-}
-
-.heart {
 }
 
 .custom-checkbox .heart {

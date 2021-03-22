@@ -1,0 +1,14 @@
+@mixin display-flex($direction, $wrap)
+    display: flex
+    @if $wrap
+        flex-flow: $direction $wrap
+    @else
+        flex-direction: $direction
+
+@mixin justify-center($alignement)
+    justify-content: center
+    @if $alignement
+        justify-content: center
+    @else 
+        justify-content: normal
+    
