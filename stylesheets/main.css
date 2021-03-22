@@ -1,3 +1,9 @@
+@media screen and (max-width: 769px) {
+  /* line 2, ../sass/_responsive.sass */
+  body {
+    background-color: red;
+  }
+}
 @font-face {
   font-family: "Shrikhand";
   src: url("/ressources/Font-Roboto/Roboto/Roboto-Regular.ttf");
@@ -81,58 +87,58 @@
   padding: 0;
 }
 
-/* line 7, ../sass/main.sass */
+/* line 6, ../sass/_variables.sass */
 .violet {
   color: #9356dc;
 }
 
-/* line 10, ../sass/main.sass */
+/* line 9, ../sass/_variables.sass */
 .rose {
   color: #ff79da;
 }
 
-/* line 13, ../sass/main.sass */
+/* line 12, ../sass/_variables.sass */
 .turquoise {
   color: #99e2d0;
 }
 
-/* line 16, ../sass/main.sass */
+/* line 15, ../sass/_variables.sass */
 .dimgray {
   color: #787878;
 }
 
-/* line 19, ../sass/main.sass */
+/* line 7, ../sass/main.sass */
 .shadow {
   box-shadow: 0 0 5px #afafaf;
 }
 
-/* line 22, ../sass/main.sass */
+/* line 10, ../sass/main.sass */
 .black {
   font-family: Roboto Black, sans-serif;
 }
 
-/* line 25, ../sass/main.sass */
+/* line 13, ../sass/main.sass */
 .bold {
   font-family: Roboto Bold, sans sans-serif;
 }
 
-/* line 28, ../sass/main.sass */
+/* line 16, ../sass/main.sass */
 .regular {
   font-family: Roboto, sans-serif;
 }
 
-/* line 31, ../sass/main.sass */
+/* line 19, ../sass/main.sass */
 .thin {
   font-family: Roboto Thin, sans-serif;
 }
 
-/* line 34, ../sass/main.sass */
+/* line 22, ../sass/main.sass */
 .justify-center {
   display: flex;
   justify-content: center;
 }
 
-/* line 38, ../sass/main.sass */
+/* line 26, ../sass/main.sass */
 header {
   display: flex;
   flex-flow: row wrap;
@@ -142,7 +148,7 @@ header {
   position: relative;
 }
 
-/* line 45, ../sass/main.sass */
+/* line 33, ../sass/main.sass */
 .block-position {
   width: 100%;
   display: flex;
@@ -156,7 +162,7 @@ header {
   color: #414141;
 }
 
-/* line 55, ../sass/main.sass */
+/* line 43, ../sass/main.sass */
 .block-de-titres {
   padding: 35px;
   margin-top: 0;
@@ -164,7 +170,7 @@ header {
   height: 100%;
   background-color: whitesmoke;
 }
-/* line 61, ../sass/main.sass */
+/* line 49, ../sass/main.sass */
 .block-de-titres .btn-explorer {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
@@ -176,43 +182,4 @@ header {
   background: linear-gradient(0.5turn, #FF79DA -15%, #9356DC);
   color: white;
   box-shadow: 0 5px 10px #d7d7d7;
-}
-
-/* line 73, ../sass/main.sass */
-.block-fonctionnement {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
-}
-/* line 78, ../sass/main.sass */
-.block-fonctionnement .box-fonctionnement {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-  width: 100%;
-}
-/* line 83, ../sass/main.sass */
-.block-fonctionnement .box-fonctionnement .numbers {
-  font-family: Roboto Medium;
-  font-size: 10px;
-  padding: 5px 8px;
-  color: white;
-  border-style: none;
-  border-radius: 50px;
-  background-color: #9356DC;
-  position: absolute;
-  left: 10px;
-}
-/* line 94, ../sass/main.sass */
-.block-fonctionnement .box-fonctionnement .icon-txt {
-  box-shadow: 0 5px 10px #d7d7d7;
-  border-radius: 16px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: whitesmoke;
 }
