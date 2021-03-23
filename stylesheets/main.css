@@ -102,47 +102,52 @@
 }
 
 /* line 7, ../sass/main.sass */
+body {
+  min-width: 320px;
+}
+
+/* line 10, ../sass/main.sass */
 .width {
   width: 100%;
 }
 
-/* line 10, ../sass/main.sass */
+/* line 13, ../sass/main.sass */
 .nav-shadow {
-  box-shadow: 0 8px 20px #c8c8c8;
+  box-shadow: 0 5px 20px #d7d7d7;
 }
 
-/* line 13, ../sass/main.sass */
+/* line 16, ../sass/main.sass */
 .radius {
   border-radius: 20px;
 }
 
-/* line 16, ../sass/main.sass */
+/* line 19, ../sass/main.sass */
 .black {
   font-family: Roboto Black, sans-serif;
 }
 
-/* line 19, ../sass/main.sass */
+/* line 22, ../sass/main.sass */
 .bold {
   font-family: Roboto Bold, sans sans-serif;
 }
 
-/* line 22, ../sass/main.sass */
+/* line 25, ../sass/main.sass */
 .regular {
   font-family: Roboto, sans-serif;
 }
 
-/* line 25, ../sass/main.sass */
+/* line 28, ../sass/main.sass */
 .thin {
   font-family: Roboto Thin, sans-serif;
 }
 
-/* line 28, ../sass/main.sass */
+/* line 31, ../sass/main.sass */
 .justify-center {
   display: flex;
   justify-content: center;
 }
 
-/* line 32, ../sass/main.sass */
+/* line 35, ../sass/main.sass */
 header {
   display: flex;
   flex-flow: row wrap;
@@ -153,7 +158,7 @@ header {
   box-shadow: 0 0 8px #c8c8c8;
 }
 
-/* line 40, ../sass/main.sass */
+/* line 43, ../sass/main.sass */
 .block-position {
   width: 100%;
   display: flex;
@@ -166,19 +171,19 @@ header {
   font-size: 16px;
   color: #414141;
 }
-/* line 49, ../sass/main.sass */
+/* line 52, ../sass/main.sass */
 .block-position .txt-loc {
   font-size: 15px;
 }
 
-/* line 52, ../sass/main.sass */
+/* line 55, ../sass/main.sass */
 .block-de-titres {
   margin-top: 0;
   text-align: center;
   height: 100%;
   background-color: whitesmoke;
 }
-/* line 57, ../sass/main.sass */
+/* line 60, ../sass/main.sass */
 .block-de-titres .btn-explorer {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
@@ -192,17 +197,56 @@ header {
   box-shadow: 0 5px 10px #d7d7d7;
 }
 
-/* line 69, ../sass/main.sass */
+/* line 72, ../sass/main.sass */
 .block-restaurant {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  text-align: center;
+  align-items: center;
 }
-/* line 74, ../sass/main.sass */
-.block-restaurant .firstnav {
+/* line 76, ../sass/main.sass */
+.block-restaurant .button {
+  width: 90%;
   display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+/* line 83, ../sass/main.sass */
+.block-restaurant .button .button:hover > svg {
+  color: #9356DC;
+}
+/* line 85, ../sass/main.sass */
+.block-restaurant .button .nav {
   width: 100%;
-  font-size: 15px;
-  box-sizing: border-box;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 90, ../sass/main.sass */
+.block-restaurant .button .number-icon {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  left: 20px;
+  justify-content: space-around;
+}
+/* line 96, ../sass/main.sass */
+.block-restaurant .button .number-icon .number {
+  margin-right: 40px;
+  position: absolute;
+  font-size: 12px;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #9356dc;
+  text-align: center;
+  border-radius: 20px;
+}
+/* line 108, ../sass/main.sass */
+.block-restaurant .button .number-icon .icon {
+  margin-left: 15px;
+  color: #787878;
 }

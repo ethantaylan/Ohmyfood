@@ -4,11 +4,14 @@
 @import spaces
 @import variables
 
+body
+    min-width: 320px
+
 .width
     width: 100%
 
 .nav-shadow
-    box-shadow: 0 8px 20px rgb(200, 200, 200)
+    box-shadow: 0 5px 20px rgb(215, 215, 215)
 
 .radius 
     border-radius: 20px
@@ -69,10 +72,39 @@ header
 .block-restaurant
     display: flex
     flex-direction: column
-    width: 100%
-    text-align: center
-    .firstnav
+    align-items: center
+    .button
+        width: 90%
         display: flex
-        width: 100%
-        font-size: 15px
-        box-sizing: border-box
+        align-items: center
+        flex-direction: row
+        margin-bottom: 20px
+        justify-content: center
+        .button:hover > svg
+            color: #9356DC
+        .nav
+            width: 100%
+            font-size: 14px
+            padding-top: 20px
+            padding-bottom: 20px
+        .number-icon
+            display: flex
+            align-items: center
+            width: 50px
+            left: 20px
+            justify-content: space-around
+            .number
+                margin-right: 40px
+                position: absolute
+                font-size: 12px
+                color: white    
+                padding-top: 4px
+                padding-bottom: 4px
+                padding-left: 8px
+                padding-right: 8px
+                background-color: $violet 
+                text-align: center
+                border-radius: 20px
+            .icon
+                margin-left: 15px
+                color: $dimgray
