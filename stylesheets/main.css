@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Shrikhand";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-Regular.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-Regular.ttf");
 }
 @font-face {
   font-family: "Roboto";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-Regular.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-Regular.ttf");
   font-weight: 300;
 }
 @font-face {
@@ -13,23 +13,23 @@
 }
 @font-face {
   font-family: "Roboto Medium";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-Medium.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-Medium.ttf");
 }
 @font-face {
   font-family: "Roboto Bold Condensed";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-BoldCondensed.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-BoldCondensed.ttf");
 }
 @font-face {
   font-family: "Roboto Black";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-Black.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-Black.ttf");
 }
 @font-face {
   font-family: "Roboto Light";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-Light.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-Light.ttf");
 }
 @font-face {
   font-family: "Roboto Thin";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-Thin.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-Thin.ttf");
 }
 /* line 1, ../sass/_spaces.sass */
 .margin {
@@ -184,6 +184,14 @@ header {
   background-color: whitesmoke;
 }
 /* line 60, ../sass/main.sass */
+.block-de-titres .txt-reservez {
+  font-size: 24px;
+}
+/* line 62, ../sass/main.sass */
+.block-de-titres .txt-decouvrez {
+  font-size: 15px;
+}
+/* line 64, ../sass/main.sass */
 .block-de-titres .btn-explorer {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
@@ -197,13 +205,13 @@ header {
   box-shadow: 0 5px 10px #d7d7d7;
 }
 
-/* line 72, ../sass/main.sass */
+/* line 76, ../sass/main.sass */
 .block-restaurant {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-/* line 76, ../sass/main.sass */
+/* line 80, ../sass/main.sass */
 .block-restaurant .button {
   width: 90%;
   display: flex;
@@ -212,18 +220,18 @@ header {
   margin-bottom: 20px;
   justify-content: center;
 }
-/* line 83, ../sass/main.sass */
+/* line 87, ../sass/main.sass */
 .block-restaurant .button .button:hover > svg {
   color: #9356DC;
 }
-/* line 85, ../sass/main.sass */
+/* line 89, ../sass/main.sass */
 .block-restaurant .button .nav {
   width: 100%;
   font-size: 14px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 90, ../sass/main.sass */
+/* line 94, ../sass/main.sass */
 .block-restaurant .button .number-icon {
   display: flex;
   align-items: center;
@@ -231,7 +239,7 @@ header {
   left: 20px;
   justify-content: space-around;
 }
-/* line 96, ../sass/main.sass */
+/* line 100, ../sass/main.sass */
 .block-restaurant .button .number-icon .number {
   margin-right: 40px;
   position: absolute;
@@ -245,7 +253,7 @@ header {
   text-align: center;
   border-radius: 20px;
 }
-/* line 108, ../sass/main.sass */
+/* line 112, ../sass/main.sass */
 .block-restaurant .button .number-icon .icon {
   margin-left: 15px;
   color: #787878;
