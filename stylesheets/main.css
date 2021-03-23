@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Shrikhand";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-Regular.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-Regular.ttf");
 }
 @font-face {
   font-family: "Roboto";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-Regular.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-Regular.ttf");
   font-weight: 300;
 }
 @font-face {
@@ -13,23 +13,23 @@
 }
 @font-face {
   font-family: "Roboto Medium";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-Medium.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-Medium.ttf");
 }
 @font-face {
   font-family: "Roboto Bold Condensed";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-BoldCondensed.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-BoldCondensed.ttf");
 }
 @font-face {
   font-family: "Roboto Black";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-Black.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-Black.ttf");
 }
 @font-face {
   font-family: "Roboto Light";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-Light.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-Light.ttf");
 }
 @font-face {
   font-family: "Roboto Thin";
-  src: url("/ressources/Font-Roboto/Roboto/Roboto-Thin.ttf");
+  src: url("ressources/Font-Roboto/Roboto/Roboto-Thin.ttf");
 }
 /* line 1, ../sass/_spaces.sass */
 .margin {
@@ -179,6 +179,14 @@ header {
   background-color: whitesmoke;
 }
 /* line 57, ../sass/main.sass */
+.block-de-titres .txt-reservez {
+  font-size: 24px;
+}
+/* line 59, ../sass/main.sass */
+.block-de-titres .txt-decouvrez {
+  font-size: 15px;
+}
+/* line 61, ../sass/main.sass */
 .block-de-titres .btn-explorer {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
@@ -192,14 +200,14 @@ header {
   box-shadow: 0 5px 10px #d7d7d7;
 }
 
-/* line 69, ../sass/main.sass */
+/* line 73, ../sass/main.sass */
 .block-restaurant {
   display: flex;
   flex-direction: column;
   width: 100%;
   text-align: center;
 }
-/* line 74, ../sass/main.sass */
+/* line 78, ../sass/main.sass */
 .block-restaurant .firstnav {
   display: flex;
   width: 100%;
