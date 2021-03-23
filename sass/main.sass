@@ -3,6 +3,7 @@
 @import mixins
 @import spaces
 @import variables
+@import hovers
 
 body
     min-width: 320px
@@ -76,7 +77,7 @@ header
         color: white
         box-shadow: 0 5px 10px rgb(215, 215, 215)
 
-.block-restaurant
+.block-fonctionnement
     display: flex
     flex-direction: column
     align-items: center
@@ -87,8 +88,6 @@ header
         flex-direction: row
         margin-bottom: 20px
         justify-content: center
-        .button:hover > svg
-            color: #9356DC
         .nav
             width: 100%
             font-size: 14px
@@ -118,3 +117,96 @@ header
                 margin-left: 15px
                 color: $dimgray
                 position: absolute
+
+.block-restaurants
+    display: flex
+    flex-direction: column
+    background-color: #f5f5f5
+    align-items: center
+    .txt-restaurant
+        align-self: flex-start
+    .box-restaurants
+        display: flex
+        flex-direction: column
+        width: 90%
+        border-radius: 13px
+        position: relative
+        .txt-box
+            font-size: 16px
+            padding: 15px
+        .nouveau
+            position: absolute
+            right: 20px
+            top: 20px
+            padding: 10px 15px
+            background-color: rgb(212, 255, 233)
+            color: rgb(100, 250, 200)
+        .img
+            object-fit: cover
+            height: 175px
+            border-top-right-radius: 13px
+            border-top-left-radius: 13px
+        .block-align-txt 
+            width: 100%
+            display: flex
+            justify-content: space-between
+
+footer
+    width: 100%
+    background-color: rgb(50, 50, 50)
+    ol
+        font-family: Roboto, sans-serif
+        font-weight: 300
+        display: flex
+        flex-direction: column
+        justify-content: space-around
+        list-style-type: none
+        height: 100%
+        color: white
+        margin: 0
+        padding-left: 0px
+        li 
+            margin: 5px
+    .logo-footer
+        font-size: 20px
+        font-family: Shrikhand, sans-serif
+        color: white
+    .icon-footer
+        margin-right: 17px
+        text-align: center
+        width: 20px
+
+label input[type="checkbox"] 
+    display: none
+
+.custom-checkbox 
+    margin-left: 2em
+    position: relative
+    cursor: pointer
+
+.custom-checkbox .fa-heart 
+    font-size: 30px
+    position: relative
+    top: 10px
+
+.custom-checkbox .heart-empty 
+    position: absolute
+    font-size: 30p
+    top: 10px
+
+.custom-checkbox .heart 
+    opacity: 0
+    transition: opacity 0.3s
+
+.custom-checkbox:hover .heart
+    opacity: 1
+
+.custom-checkbox:hover .heart-empty
+    opacity: 0
+
+.custom-checkbox input[type="checkbox"]:checked ~ .heart 
+    opacity: 1
+
+
+.custom-checkbox input[type="checkbox"]:checked ~ .heart-empty 
+    opacity: 0
