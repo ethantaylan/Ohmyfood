@@ -1,42 +1,15 @@
-@import responsive
-@import font
-@import spaces
-@import variables
-@import hovers
+/* REPONSIVE DE LA PAGE PRINCIPALE */
+@import responsive-sass/_main-responsive
 
-body
-    min-width: 320px
+@import generic-sass/_font
+@import generic-sass/_checkbox
+@import generic-sass/_spaces
+@import generic-sass/_hovers
+@import generic-sass/_variables
+@import generic-sass/_generic
 
-.width
-    width: 100%
-
-.fontsize
-    font-size: 22px
-    
-.nav-shadow
-    box-shadow: 0 5px 20px rgb(215, 215, 215)
-
-.radius 
-    border-radius: 20px
-
-.black
-    font-family: Roboto Black, sans-serif
-
-.bold
-    font-family: Roboto Bold, sans sans-serif
-
-.regular
-    font-family: Roboto, sans-serif
-
-.thin
-    font-family: Roboto Thin, sans-serif
-
-.justify-center
-    display: flex
-    justify-content: center
-
-.text-center
-    text-align: center
+/*PAGE 2*/
+@import la-palette-du-gout
 
 header 
     width: 100%
@@ -75,7 +48,7 @@ header
         padding: 12px 17px
         border: 0
         font-size: 14px
-        background: linear-gradient(0.50turn, #FF79DA -15%, #9356DC)
+        background: linear-gradient(0.45turn, #FF79DA -25%, #9356DC 125%)
         color: white
         box-shadow: 0 5px 10px rgb(215, 215, 215)
 
@@ -139,12 +112,13 @@ header
             font-size: 16px
             padding: 15px
         .nouveau
+            border-radius: 3px
             position: absolute
             right: 20px
             top: 20px
             padding: 10px 15px
-            background-color: rgb(212, 255, 233)
-            color: rgb(100, 250, 200)
+            background-color: rgb(134, 230, 193)
+            color: rgb(57, 138, 111)
         .img
             object-fit: cover
             height: 175px
