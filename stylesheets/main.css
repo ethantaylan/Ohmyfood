@@ -391,7 +391,7 @@ body {
   display: flex;
   align-items: center;
   margin: 8px;
-  width: 70px;
+  width: 100px;
 }
 /* line 55, ../sass/_contact.sass */
 .block-contact .int-contact .name .underline {
