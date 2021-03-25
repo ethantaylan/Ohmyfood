@@ -304,6 +304,151 @@ body {
   color: black;
 }
 
+/* line 8, ../sass/_contact.sass */
+.block-top-contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  height: 50px;
+}
+/* line 14, ../sass/_contact.sass */
+.block-top-contact .icon-plus-txt-contact {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 20, ../sass/_contact.sass */
+.block-contact {
+  margin-top: 25px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 28, ../sass/_contact.sass */
+.block-contact .int-contact {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 80%;
+}
+/* line 33, ../sass/_contact.sass */
+.block-contact .int-contact .name {
+  color: #d7d7d7;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-style: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+/* line 44, ../sass/_contact.sass */
+.block-contact .int-contact .name .int-name {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  margin: 8px;
+  width: 50px;
+}
+/* line 50, ../sass/_contact.sass */
+.block-contact .int-contact .name .underline {
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #ff79da;
+  width: auto;
+  height: 75%;
+  background-color: #fafafa;
+  position: absolute;
+  left: 30%;
+}
+/* line 59, ../sass/_contact.sass */
+.block-contact .int-contact .name .message {
+  height: 150px;
+}
+/* line 61, ../sass/_contact.sass */
+.block-contact .int-contact .name-block-message {
+  color: #d7d7d7;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-content: center;
+  position: relative;
+  height: 153px;
+}
+/* line 74, ../sass/_contact.sass */
+.block-contact .int-contact .name-block-message .int-name-block-message {
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #ff79da;
+  padding-bottom: 10px;
+}
+/* line 80, ../sass/_contact.sass */
+.block-contact .int-contact .name-block-message .underline-block-message {
+  width: 80%;
+  height: 1px;
+  background-color: #e1e1e1;
+  position: absolute;
+  top: 95px;
+}
+/* line 86, ../sass/_contact.sass */
+.block-contact .int-contact .name-block-message .underline-two-block-message {
+  width: 80%;
+  height: 1px;
+  background-color: #e1e1e1;
+  position: absolute;
+  top: 125px;
+}
+/* line 92, ../sass/_contact.sass */
+.block-contact .int-contact .name-block-message .underline-three-block-message {
+  width: 80%;
+  height: 1px;
+  background-color: #e1e1e1;
+  position: absolute;
+  top: 155px;
+}
+/* line 98, ../sass/_contact.sass */
+.block-contact .int-contact .name-block-message .input-block-message {
+  margin-left: 0px;
+}
+/* line 100, ../sass/_contact.sass */
+.block-contact .int-contact input {
+  border-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-self: flex-start;
+  margin-left: 15%;
+}
+/* line 109, ../sass/_contact.sass */
+.block-contact .btn-envoyez {
+  margin-top: 20px;
+  font-family: Roboto, sans-serif;
+  width: 70px;
+  border-radius: 50px;
+  padding: 12px 17px;
+  border: 0;
+  font-size: 14px;
+  background: linear-gradient(0.45turn, #FF79DA -25%, #9356DC 125%);
+  color: white;
+  box-shadow: 0 5px 10px #d7d7d7;
+  text-align: center;
+}
+
 /* line 8, ../sass/_menu.sass */
 .logo-omf-page {
   font-family: Shrikhand, sans-serif;
@@ -445,9 +590,12 @@ body {
 /* line 115, ../sass/_menu.sass */
 .btn-commander:hover {
   cursor: pointer;
+  transform: scale(1.03);
+  transition-duration: 0.3s;
+  background: linear-gradient(0.5turn, #fd99e1 -15%, #bd88fd) !important;
 }
 
-/* line 13, ../sass/main.sass */
+/* line 14, ../sass/main.sass */
 header {
   width: 100%;
   align-items: center;
@@ -456,7 +604,7 @@ header {
   box-shadow: 0 0 8px #c8c8c8;
 }
 
-/* line 20, ../sass/main.sass */
+/* line 21, ../sass/main.sass */
 .block-position {
   display: flex;
   justify-content: center;
@@ -467,28 +615,28 @@ header {
   font-size: 16px;
   color: #414141;
 }
-/* line 29, ../sass/main.sass */
+/* line 30, ../sass/main.sass */
 .block-position .txt-loc {
   font-size: 15px;
 }
 
-/* line 32, ../sass/main.sass */
+/* line 33, ../sass/main.sass */
 .block-de-titres {
   margin-top: 0;
   text-align: center;
   height: 100%;
   background-color: whitesmoke;
 }
-/* line 37, ../sass/main.sass */
+/* line 38, ../sass/main.sass */
 .block-de-titres .txt-reservez {
   padding-left: 40px;
   padding-right: 40px;
 }
-/* line 40, ../sass/main.sass */
+/* line 41, ../sass/main.sass */
 .block-de-titres .txt-decouvrez {
   font-size: 15px;
 }
-/* line 42, ../sass/main.sass */
+/* line 43, ../sass/main.sass */
 .block-de-titres .btn-explorer {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
@@ -502,13 +650,13 @@ header {
   box-shadow: 0 5px 10px #d7d7d7;
 }
 
-/* line 54, ../sass/main.sass */
+/* line 55, ../sass/main.sass */
 .block-fonctionnement {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-/* line 58, ../sass/main.sass */
+/* line 59, ../sass/main.sass */
 .block-fonctionnement .button {
   width: 90%;
   display: flex;
@@ -517,12 +665,12 @@ header {
   margin-bottom: 20px;
   justify-content: center;
 }
-/* line 65, ../sass/main.sass */
+/* line 66, ../sass/main.sass */
 .block-fonctionnement .button .nav {
   width: 100%;
   font-size: 14px;
 }
-/* line 68, ../sass/main.sass */
+/* line 69, ../sass/main.sass */
 .block-fonctionnement .button .number-icon {
   display: flex;
   flex-direction: row;
@@ -533,7 +681,7 @@ header {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-/* line 77, ../sass/main.sass */
+/* line 78, ../sass/main.sass */
 .block-fonctionnement .button .number-icon .container {
   width: 100%;
   display: flex;
@@ -541,7 +689,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
-/* line 83, ../sass/main.sass */
+/* line 84, ../sass/main.sass */
 .block-fonctionnement .button .number-icon .number {
   position: absolute;
   font-size: 12px;
@@ -552,25 +700,25 @@ header {
   border-radius: 20px;
   left: 3%;
 }
-/* line 92, ../sass/main.sass */
+/* line 93, ../sass/main.sass */
 .block-fonctionnement .button .number-icon .icon {
   margin-left: 15px;
   color: #787878;
   position: absolute;
 }
 
-/* line 97, ../sass/main.sass */
+/* line 98, ../sass/main.sass */
 .block-restaurants {
   display: flex;
   flex-direction: column;
   background-color: #f5f5f5;
   align-items: center;
 }
-/* line 102, ../sass/main.sass */
+/* line 103, ../sass/main.sass */
 .block-restaurants .txt-restaurant {
   align-self: flex-start;
 }
-/* line 104, ../sass/main.sass */
+/* line 105, ../sass/main.sass */
 .block-restaurants .box-restaurants {
   display: flex;
   flex-direction: column;
@@ -578,12 +726,12 @@ header {
   border-radius: 13px;
   position: relative;
 }
-/* line 110, ../sass/main.sass */
+/* line 111, ../sass/main.sass */
 .block-restaurants .box-restaurants .txt-box {
   font-size: 16px;
   padding: 15px;
 }
-/* line 113, ../sass/main.sass */
+/* line 114, ../sass/main.sass */
 .block-restaurants .box-restaurants .nouveau {
   border-radius: 3px;
   position: absolute;
@@ -593,7 +741,7 @@ header {
   background-color: #86e6c1;
   color: #398a6f;
 }
-/* line 121, ../sass/main.sass */
+/* line 122, ../sass/main.sass */
 .block-restaurants .box-restaurants .img {
   object-fit: cover;
   height: 175px;
@@ -601,20 +749,20 @@ header {
   border-top-left-radius: 13px;
   width: 100%;
 }
-/* line 127, ../sass/main.sass */
+/* line 128, ../sass/main.sass */
 .block-restaurants .box-restaurants .block-align-txt {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-/* line 132, ../sass/main.sass */
+/* line 133, ../sass/main.sass */
 footer {
   width: 100%;
   height: 100%;
   background-color: #323232;
 }
-/* line 136, ../sass/main.sass */
+/* line 137, ../sass/main.sass */
 footer .logo-footer {
   color: white;
   font-family: Shrikhand, sans-serif;
@@ -622,7 +770,7 @@ footer .logo-footer {
   margin: 0px;
   padding-bottom: 0;
 }
-/* line 142, ../sass/main.sass */
+/* line 143, ../sass/main.sass */
 footer ol {
   display: flex;
   flex-direction: column;
@@ -635,70 +783,70 @@ footer ol {
   font-size: 15px;
   margin-bottom: 0px;
 }
-/* line 153, ../sass/main.sass */
+/* line 154, ../sass/main.sass */
 footer ol li {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-/* line 158, ../sass/main.sass */
+/* line 159, ../sass/main.sass */
 footer ol .footer-icon {
   margin-right: 10px;
 }
-/* line 160, ../sass/main.sass */
+/* line 161, ../sass/main.sass */
 footer ol .px {
   padding-left: 7px;
 }
 
-/* line 165, ../sass/main.sass */
+/* line 166, ../sass/main.sass */
 label input[type="checkbox"] {
   display: none;
 }
 
-/* line 168, ../sass/main.sass */
+/* line 169, ../sass/main.sass */
 .custom-checkbox {
   margin-left: 2em;
   position: relative;
   cursor: pointer;
 }
 
-/* line 173, ../sass/main.sass */
+/* line 174, ../sass/main.sass */
 .custom-checkbox .fa-heart {
   font-size: 30px;
   position: relative;
   top: 10px;
 }
 
-/* line 178, ../sass/main.sass */
+/* line 179, ../sass/main.sass */
 .custom-checkbox .heart-empty {
   position: absolute;
   font-size: 30p;
   top: 10px;
 }
 
-/* line 183, ../sass/main.sass */
+/* line 184, ../sass/main.sass */
 .custom-checkbox .heart {
   opacity: 0;
   transition: opacity 0.3s;
 }
 
-/* line 187, ../sass/main.sass */
+/* line 188, ../sass/main.sass */
 .custom-checkbox:hover .heart {
   opacity: 1;
 }
 
-/* line 190, ../sass/main.sass */
+/* line 191, ../sass/main.sass */
 .custom-checkbox:hover .heart-empty {
   opacity: 0;
 }
 
-/* line 193, ../sass/main.sass */
+/* line 194, ../sass/main.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart {
   opacity: 1;
 }
 
-/* line 197, ../sass/main.sass */
+/* line 198, ../sass/main.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart-empty {
   opacity: 0;
 }

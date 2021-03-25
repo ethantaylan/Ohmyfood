@@ -302,12 +302,6 @@ li:hover {
     cursor: pointer;
 }
 
-.btn-explorer:hover {
-    transform: scale(1.02);
-    transition: 0.3s;
-    cursor: pointer;
-}
-
 .icone-plus-txt:hover {
     background-color: hsla(269, 100%, 91%, 0.308);
     cursor: pointer;
