@@ -214,7 +214,7 @@ body {
 
 /* line 21, ../sass/generic-sass/_generic.sass */
 .bold {
-  font-family: Roboto, sans sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
 }
 
@@ -256,7 +256,7 @@ body {
   color: inherit;
 }
 
-/* line 8, ../sass/_contact.sass */
+/* line 7, ../sass/_contact.sass */
 .block-top-contact {
   width: 100%;
   display: flex;
@@ -265,20 +265,20 @@ body {
   height: 50px;
   color: #414141;
 }
-/* line 15, ../sass/_contact.sass */
+/* line 14, ../sass/_contact.sass */
 .block-top-contact .icon-plus-txt-contact {
   width: 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-/* line 20, ../sass/_contact.sass */
+/* line 19, ../sass/_contact.sass */
 .block-top-contact .txt-contact {
   font-size: 14px;
   padding-right: 15px;
 }
 
-/* line 25, ../sass/_contact.sass */
+/* line 24, ../sass/_contact.sass */
 .block-contact {
   margin-top: 25px;
   display: flex;
@@ -288,14 +288,14 @@ body {
   flex-direction: column;
   align-items: center;
 }
-/* line 33, ../sass/_contact.sass */
+/* line 32, ../sass/_contact.sass */
 .block-contact .int-contact {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   width: 80%;
 }
-/* line 38, ../sass/_contact.sass */
+/* line 37, ../sass/_contact.sass */
 .block-contact .int-contact .name {
   color: #d7d7d7;
   display: flex;
@@ -308,7 +308,7 @@ body {
   position: relative;
   margin-bottom: 10px;
 }
-/* line 49, ../sass/_contact.sass */
+/* line 48, ../sass/_contact.sass */
 .block-contact .int-contact .name .int-name {
   font-size: 13px;
   display: flex;
@@ -316,7 +316,7 @@ body {
   margin: 8px;
   width: 100px;
 }
-/* line 55, ../sass/_contact.sass */
+/* line 54, ../sass/_contact.sass */
 .block-contact .int-contact .name .underline {
   width: auto;
   height: 75%;
@@ -324,11 +324,11 @@ body {
   position: absolute;
   left: 30%;
 }
-/* line 61, ../sass/_contact.sass */
+/* line 60, ../sass/_contact.sass */
 .block-contact .int-contact .name .message {
   height: 150px;
 }
-/* line 63, ../sass/_contact.sass */
+/* line 62, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message {
   color: #d7d7d7;
   display: flex;
@@ -343,12 +343,12 @@ body {
   position: relative;
   height: 153px;
 }
-/* line 76, ../sass/_contact.sass */
+/* line 75, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .int-name-block-message {
   width: 100%;
   padding-bottom: 10px;
 }
-/* line 79, ../sass/_contact.sass */
+/* line 78, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .underline-block-message {
   width: 80%;
   height: 1px;
@@ -356,7 +356,7 @@ body {
   position: absolute;
   top: 95px;
 }
-/* line 85, ../sass/_contact.sass */
+/* line 84, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .underline-two-block-message {
   width: 80%;
   height: 1px;
@@ -364,7 +364,7 @@ body {
   position: absolute;
   top: 125px;
 }
-/* line 91, ../sass/_contact.sass */
+/* line 90, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .underline-three-block-message {
   width: 80%;
   height: 1px;
@@ -372,7 +372,7 @@ body {
   position: absolute;
   top: 155px;
 }
-/* line 97, ../sass/_contact.sass */
+/* line 96, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .input-block-message {
   border-left-style: none;
   border-top-style: solid;
@@ -380,7 +380,7 @@ body {
   border-top-color: #ff79da;
   margin: 0px;
 }
-/* line 103, ../sass/_contact.sass */
+/* line 102, ../sass/_contact.sass */
 .block-contact .int-contact input {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -394,9 +394,9 @@ body {
   border-left-color: #ff79da;
   margin: 8px;
 }
-/* line 116, ../sass/_contact.sass */
+/* line 115, ../sass/_contact.sass */
 .block-contact .btn-envoyez {
-  margin-top: 20px;
+  margin-top: 25px;
   font-family: Roboto, sans-serif;
   width: 70px;
   border-radius: 50px;
@@ -409,7 +409,7 @@ body {
   text-align: center;
 }
 
-/* line 8, ../sass/_menu.sass */
+/* line 7, ../sass/_menu.sass */
 .logo-omf-page {
   font-family: Shrikhand, sans-serif;
   font-size: 30px;
@@ -418,13 +418,13 @@ body {
   margin: 0px;
 }
 
-/* line 15, ../sass/_menu.sass */
+/* line 14, ../sass/_menu.sass */
 .arrow-plus-logo {
   position: relative;
   display: flex;
   align-items: center;
 }
-/* line 19, ../sass/_menu.sass */
+/* line 18, ../sass/_menu.sass */
 .arrow-plus-logo .arrow {
   font-size: 20px;
   position: absolute;
@@ -433,12 +433,12 @@ body {
   color: #323232;
 }
 
-/* line 26, ../sass/_menu.sass */
+/* line 25, ../sass/_menu.sass */
 .block-image {
   height: 180px;
 }
 
-/* line 29, ../sass/_menu.sass */
+/* line 28, ../sass/_menu.sass */
 .img-page-restaurant {
   width: 100%;
   object-fit: cover;
@@ -448,7 +448,7 @@ body {
   z-index: -999;
 }
 
-/* line 37, ../sass/_menu.sass */
+/* line 36, ../sass/_menu.sass */
 .block-menu {
   background-color: #ebebeb;
   display: flex;
@@ -459,7 +459,7 @@ body {
   border-top-right-radius: 35px;
 }
 
-/* line 46, ../sass/_menu.sass */
+/* line 45, ../sass/_menu.sass */
 .txt-plus-icon {
   font-size: 20px;
   display: flex;
@@ -468,7 +468,7 @@ body {
   width: 80%;
 }
 
-/* line 53, ../sass/_menu.sass */
+/* line 52, ../sass/_menu.sass */
 .entrees {
   text-transform: uppercase;
   margin-left: 20px;
@@ -477,7 +477,7 @@ body {
   align-self: flex-start;
 }
 
-/* line 60, ../sass/_menu.sass */
+/* line 59, ../sass/_menu.sass */
 .block-entrees {
   display: flex;
   background-color: #ebebeb;
@@ -485,7 +485,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-/* line 66, ../sass/_menu.sass */
+/* line 65, ../sass/_menu.sass */
 .block-entrees .line {
   border-radius: 20px;
   background-color: #99e2d0;
@@ -494,7 +494,7 @@ body {
   margin-left: 20px;
   align-self: flex-start;
 }
-/* line 73, ../sass/_menu.sass */
+/* line 72, ../sass/_menu.sass */
 .block-entrees .menu-button {
   margin-top: 20px;
   background-color: white;
@@ -509,7 +509,7 @@ body {
   justify-content: space-between;
   height: 45px;
 }
-/* line 86, ../sass/_menu.sass */
+/* line 85, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix {
   display: flex;
   flex-direction: row;
@@ -517,11 +517,11 @@ body {
   align-items: center;
   font-size: 14px;
 }
-/* line 92, ../sass/_menu.sass */
+/* line 91, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix .menu- {
   font-size: 15px;
 }
-/* line 94, ../sass/_menu.sass */
+/* line 93, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix .menu-- {
   text-overflow: ellipsis;
   overflow: hidden;
@@ -529,7 +529,7 @@ body {
   white-space: nowrap;
 }
 
-/* line 100, ../sass/_menu.sass */
+/* line 99, ../sass/_menu.sass */
 .btn-commander {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
@@ -547,7 +547,7 @@ body {
   padding-right: 30px;
 }
 
-/* line 12, ../sass/main.sass */
+/* line 13, ../sass/main.sass */
 header {
   width: 100%;
   align-items: center;
@@ -556,7 +556,7 @@ header {
   box-shadow: 0 0 8px #c8c8c8;
 }
 
-/* line 19, ../sass/main.sass */
+/* line 20, ../sass/main.sass */
 .block-position {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -569,13 +569,13 @@ header {
   font-size: 16px;
   color: #414141;
 }
-/* line 30, ../sass/main.sass */
+/* line 31, ../sass/main.sass */
 .block-position .txt-loc {
   font-size: 15px;
   padding-right: 15px;
 }
 
-/* line 34, ../sass/main.sass */
+/* line 35, ../sass/main.sass */
 .block-de-titres {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -584,17 +584,17 @@ header {
   height: 100%;
   background-color: whitesmoke;
 }
-/* line 41, ../sass/main.sass */
+/* line 42, ../sass/main.sass */
 .block-de-titres .txt-reservez {
   padding-left: 40px;
   padding-right: 40px;
 }
-/* line 44, ../sass/main.sass */
+/* line 45, ../sass/main.sass */
 .block-de-titres .txt-decouvrez {
   font-weight: 400;
   font-size: 15px;
 }
-/* line 47, ../sass/main.sass */
+/* line 48, ../sass/main.sass */
 .block-de-titres .btn-explorer {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
@@ -609,19 +609,19 @@ header {
   box-shadow: 0 5px 10px #d7d7d7;
 }
 
-/* line 60, ../sass/main.sass */
+/* line 61, ../sass/main.sass */
 h2 {
   font-family: Roboto, sans-serif;
   font-weight: 700;
 }
 
-/* line 64, ../sass/main.sass */
+/* line 65, ../sass/main.sass */
 .block-fonctionnement {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-/* line 68, ../sass/main.sass */
+/* line 69, ../sass/main.sass */
 .block-fonctionnement .button {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -632,12 +632,12 @@ h2 {
   margin-bottom: 20px;
   justify-content: center;
 }
-/* line 77, ../sass/main.sass */
+/* line 78, ../sass/main.sass */
 .block-fonctionnement .button .nav {
   width: 100%;
   font-size: 14px;
 }
-/* line 80, ../sass/main.sass */
+/* line 81, ../sass/main.sass */
 .block-fonctionnement .button .number-icon {
   display: flex;
   flex-direction: row;
@@ -648,7 +648,7 @@ h2 {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-/* line 89, ../sass/main.sass */
+/* line 90, ../sass/main.sass */
 .block-fonctionnement .button .number-icon .container {
   width: 100%;
   display: flex;
@@ -656,7 +656,7 @@ h2 {
   justify-content: space-evenly;
   align-items: center;
 }
-/* line 95, ../sass/main.sass */
+/* line 96, ../sass/main.sass */
 .block-fonctionnement .button .number-icon .number {
   position: absolute;
   font-size: 12px;
@@ -667,14 +667,14 @@ h2 {
   border-radius: 20px;
   left: 3%;
 }
-/* line 104, ../sass/main.sass */
+/* line 105, ../sass/main.sass */
 .block-fonctionnement .button .number-icon .icon {
   margin-left: 15px;
   color: #787878;
   position: absolute;
 }
 
-/* line 109, ../sass/main.sass */
+/* line 110, ../sass/main.sass */
 .block-restaurants {
   font-family: Roboto, sans-serif;
   display: flex;
@@ -682,11 +682,11 @@ h2 {
   background-color: #f5f5f5;
   align-items: center;
 }
-/* line 115, ../sass/main.sass */
+/* line 116, ../sass/main.sass */
 .block-restaurants .txt-restaurant {
   align-self: flex-start;
 }
-/* line 117, ../sass/main.sass */
+/* line 118, ../sass/main.sass */
 .block-restaurants .box-restaurants {
   display: flex;
   flex-direction: column;
@@ -694,20 +694,20 @@ h2 {
   border-radius: 13px;
   position: relative;
 }
-/* line 123, ../sass/main.sass */
+/* line 124, ../sass/main.sass */
 .block-restaurants .box-restaurants .box-txt {
   font-size: 16px;
   padding: 15px;
 }
-/* line 126, ../sass/main.sass */
+/* line 127, ../sass/main.sass */
 .block-restaurants .box-restaurants .box-txt .txt-box {
   font-weight: 700;
 }
-/* line 128, ../sass/main.sass */
+/* line 129, ../sass/main.sass */
 .block-restaurants .box-restaurants .box-txt .txt--box {
   font-weight: 400;
 }
-/* line 130, ../sass/main.sass */
+/* line 131, ../sass/main.sass */
 .block-restaurants .box-restaurants .nouveau {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -719,7 +719,7 @@ h2 {
   background-color: #86e6c1;
   color: #398a6f;
 }
-/* line 140, ../sass/main.sass */
+/* line 141, ../sass/main.sass */
 .block-restaurants .box-restaurants .img {
   object-fit: cover;
   height: 175px;
@@ -727,21 +727,23 @@ h2 {
   border-top-left-radius: 13px;
   width: 100%;
 }
-/* line 146, ../sass/main.sass */
+/* line 147, ../sass/main.sass */
 .block-restaurants .box-restaurants .block-align-txt {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-/* line 151, ../sass/main.sass */
+/* line 152, ../sass/main.sass */
 footer {
   width: 100%;
-  height: 100%;
-  background-color: #323232;
   padding-right: 0px;
+  background-color: #323232;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
-/* line 156, ../sass/main.sass */
+/* line 159, ../sass/main.sass */
 footer .logo-footer {
   color: white;
   font-family: Shrikhand, sans-serif;
@@ -750,7 +752,7 @@ footer .logo-footer {
   padding-bottom: 0;
   padding-right: 0;
 }
-/* line 163, ../sass/main.sass */
+/* line 166, ../sass/main.sass */
 footer ol {
   display: flex;
   flex-direction: column;
@@ -763,70 +765,70 @@ footer ol {
   font-size: 15px;
   margin-bottom: 0px;
 }
-/* line 174, ../sass/main.sass */
+/* line 177, ../sass/main.sass */
 footer ol li {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-/* line 179, ../sass/main.sass */
+/* line 182, ../sass/main.sass */
 footer ol .footer-icon {
   margin-right: 10px;
 }
-/* line 181, ../sass/main.sass */
+/* line 184, ../sass/main.sass */
 footer ol .px {
   padding-left: 7px;
 }
 
-/* line 186, ../sass/main.sass */
+/* line 189, ../sass/main.sass */
 label input[type="checkbox"] {
   display: none;
 }
 
-/* line 189, ../sass/main.sass */
+/* line 192, ../sass/main.sass */
 .custom-checkbox {
   margin-left: 2em;
   position: relative;
   cursor: pointer;
 }
 
-/* line 194, ../sass/main.sass */
+/* line 197, ../sass/main.sass */
 .custom-checkbox .fa-heart {
   font-size: 30px;
   position: relative;
   top: 10px;
 }
 
-/* line 199, ../sass/main.sass */
+/* line 202, ../sass/main.sass */
 .custom-checkbox .heart-empty {
   position: absolute;
   font-size: 30p;
   top: 10px;
 }
 
-/* line 204, ../sass/main.sass */
+/* line 207, ../sass/main.sass */
 .custom-checkbox .heart {
   opacity: 0;
   transition: opacity 0.3s;
 }
 
-/* line 208, ../sass/main.sass */
+/* line 211, ../sass/main.sass */
 .custom-checkbox:hover .heart {
   opacity: 1;
 }
 
-/* line 211, ../sass/main.sass */
+/* line 214, ../sass/main.sass */
 .custom-checkbox:hover .heart-empty {
   opacity: 0;
 }
 
-/* line 214, ../sass/main.sass */
+/* line 217, ../sass/main.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart {
   opacity: 1;
 }
 
-/* line 218, ../sass/main.sass */
+/* line 221, ../sass/main.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart-empty {
   opacity: 0;
 }
