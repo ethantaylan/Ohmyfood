@@ -1,37 +1,5 @@
 /* REPONSIVE DE LA PAGE PRINCIPALE */
-@font-face {
-  font-family: "Shrikhand";
-  src: url("../../ressources/Shrikhand-Regular.ttf");
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../../ressources/Font-Roboto/Roboto/Roboto-Regular.ttf");
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Roboto Bold";
-  src: url("../../ressources/Font-Roboto/Roboto/Roboto-Bold.ttf");
-}
-@font-face {
-  font-family: "Roboto Medium";
-  src: url("../../ressources/Font-Roboto/Roboto/Roboto-Medium.ttf");
-}
-@font-face {
-  font-family: "Roboto Bold Condensed";
-  src: url("../../ressources/Font-Roboto/Roboto/Roboto-BoldCondensed.ttf");
-}
-@font-face {
-  font-family: "Roboto Black";
-  src: url("../../ressources/Font-Roboto/Roboto/Roboto-Black.ttf");
-}
-@font-face {
-  font-family: "Roboto Light";
-  src: url("../../ressources/Font-Roboto/Roboto/Roboto-Light.ttf");
-}
-@font-face {
-  font-family: "Roboto Thin";
-  src: url("../../ressources/Font-Roboto/Roboto/Roboto-Thin.ttf");
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap");
 /* line 1, ../sass/generic-sass/_checkbox.sass */
 label input[type="checkbox"] {
   display: none;
@@ -240,46 +208,50 @@ body {
 
 /* line 17, ../sass/generic-sass/_generic.sass */
 .black {
-  font-family: Roboto Black, sans-serif;
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
 }
 
-/* line 20, ../sass/generic-sass/_generic.sass */
+/* line 21, ../sass/generic-sass/_generic.sass */
 .bold {
-  font-family: Roboto Bold, sans sans-serif;
+  font-family: Roboto, sans sans-serif;
+  font-weight: 700;
 }
 
-/* line 23, ../sass/generic-sass/_generic.sass */
+/* line 25, ../sass/generic-sass/_generic.sass */
 .regular {
   font-family: Roboto, sans-serif;
-}
-
-/* line 26, ../sass/generic-sass/_generic.sass */
-.thin {
-  font-family: Roboto Thin, sans-serif;
+  font-weight: 500;
 }
 
 /* line 29, ../sass/generic-sass/_generic.sass */
+.thin {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+}
+
+/* line 33, ../sass/generic-sass/_generic.sass */
 .sk {
   font-family: Shrikhand;
 }
 
-/* line 32, ../sass/generic-sass/_generic.sass */
+/* line 36, ../sass/generic-sass/_generic.sass */
 .justify-center {
   display: flex;
   justify-content: center;
 }
 
-/* line 36, ../sass/generic-sass/_generic.sass */
+/* line 40, ../sass/generic-sass/_generic.sass */
 .text-center {
   text-align: center;
 }
 
-/* line 39, ../sass/generic-sass/_generic.sass */
+/* line 43, ../sass/generic-sass/_generic.sass */
 .no-decoration {
   text-decoration: none;
 }
 
-/* line 42, ../sass/generic-sass/_generic.sass */
+/* line 46, ../sass/generic-sass/_generic.sass */
 .no-decoration:visited {
   color: inherit;
 }
@@ -575,7 +547,7 @@ body {
   padding-right: 30px;
 }
 
-/* line 13, ../sass/main.sass */
+/* line 12, ../sass/main.sass */
 header {
   width: 100%;
   align-items: center;
@@ -584,8 +556,10 @@ header {
   box-shadow: 0 0 8px #c8c8c8;
 }
 
-/* line 20, ../sass/main.sass */
+/* line 19, ../sass/main.sass */
 .block-position {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -595,32 +569,36 @@ header {
   font-size: 16px;
   color: #414141;
 }
-/* line 29, ../sass/main.sass */
+/* line 30, ../sass/main.sass */
 .block-position .txt-loc {
   font-size: 15px;
   padding-right: 15px;
 }
 
-/* line 33, ../sass/main.sass */
+/* line 34, ../sass/main.sass */
 .block-de-titres {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
   margin-top: 0;
   text-align: center;
   height: 100%;
   background-color: whitesmoke;
 }
-/* line 38, ../sass/main.sass */
+/* line 41, ../sass/main.sass */
 .block-de-titres .txt-reservez {
   padding-left: 40px;
   padding-right: 40px;
 }
-/* line 41, ../sass/main.sass */
+/* line 44, ../sass/main.sass */
 .block-de-titres .txt-decouvrez {
+  font-weight: 400;
   font-size: 15px;
 }
-/* line 43, ../sass/main.sass */
+/* line 47, ../sass/main.sass */
 .block-de-titres .btn-explorer {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
+  font-weight: 400;
   width: auto;
   border-radius: 50px;
   padding: 12px 17px;
@@ -631,14 +609,22 @@ header {
   box-shadow: 0 5px 10px #d7d7d7;
 }
 
-/* line 55, ../sass/main.sass */
+/* line 60, ../sass/main.sass */
+h2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+}
+
+/* line 64, ../sass/main.sass */
 .block-fonctionnement {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-/* line 59, ../sass/main.sass */
+/* line 68, ../sass/main.sass */
 .block-fonctionnement .button {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
   width: 90%;
   display: flex;
   align-items: center;
@@ -646,12 +632,12 @@ header {
   margin-bottom: 20px;
   justify-content: center;
 }
-/* line 66, ../sass/main.sass */
+/* line 77, ../sass/main.sass */
 .block-fonctionnement .button .nav {
   width: 100%;
   font-size: 14px;
 }
-/* line 69, ../sass/main.sass */
+/* line 80, ../sass/main.sass */
 .block-fonctionnement .button .number-icon {
   display: flex;
   flex-direction: row;
@@ -662,7 +648,7 @@ header {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-/* line 78, ../sass/main.sass */
+/* line 89, ../sass/main.sass */
 .block-fonctionnement .button .number-icon .container {
   width: 100%;
   display: flex;
@@ -670,7 +656,7 @@ header {
   justify-content: space-evenly;
   align-items: center;
 }
-/* line 84, ../sass/main.sass */
+/* line 95, ../sass/main.sass */
 .block-fonctionnement .button .number-icon .number {
   position: absolute;
   font-size: 12px;
@@ -681,25 +667,26 @@ header {
   border-radius: 20px;
   left: 3%;
 }
-/* line 93, ../sass/main.sass */
+/* line 104, ../sass/main.sass */
 .block-fonctionnement .button .number-icon .icon {
   margin-left: 15px;
   color: #787878;
   position: absolute;
 }
 
-/* line 98, ../sass/main.sass */
+/* line 109, ../sass/main.sass */
 .block-restaurants {
+  font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
   background-color: #f5f5f5;
   align-items: center;
 }
-/* line 103, ../sass/main.sass */
+/* line 115, ../sass/main.sass */
 .block-restaurants .txt-restaurant {
   align-self: flex-start;
 }
-/* line 105, ../sass/main.sass */
+/* line 117, ../sass/main.sass */
 .block-restaurants .box-restaurants {
   display: flex;
   flex-direction: column;
@@ -707,13 +694,23 @@ header {
   border-radius: 13px;
   position: relative;
 }
-/* line 111, ../sass/main.sass */
-.block-restaurants .box-restaurants .txt-box {
+/* line 123, ../sass/main.sass */
+.block-restaurants .box-restaurants .box-txt {
   font-size: 16px;
   padding: 15px;
 }
-/* line 114, ../sass/main.sass */
+/* line 126, ../sass/main.sass */
+.block-restaurants .box-restaurants .box-txt .txt-box {
+  font-weight: 700;
+}
+/* line 128, ../sass/main.sass */
+.block-restaurants .box-restaurants .box-txt .txt--box {
+  font-weight: 400;
+}
+/* line 130, ../sass/main.sass */
 .block-restaurants .box-restaurants .nouveau {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
   border-radius: 3px;
   position: absolute;
   right: 20px;
@@ -722,7 +719,7 @@ header {
   background-color: #86e6c1;
   color: #398a6f;
 }
-/* line 122, ../sass/main.sass */
+/* line 140, ../sass/main.sass */
 .block-restaurants .box-restaurants .img {
   object-fit: cover;
   height: 175px;
@@ -730,21 +727,21 @@ header {
   border-top-left-radius: 13px;
   width: 100%;
 }
-/* line 128, ../sass/main.sass */
+/* line 146, ../sass/main.sass */
 .block-restaurants .box-restaurants .block-align-txt {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-/* line 133, ../sass/main.sass */
+/* line 151, ../sass/main.sass */
 footer {
   width: 100%;
   height: 100%;
   background-color: #323232;
   padding-right: 0px;
 }
-/* line 138, ../sass/main.sass */
+/* line 156, ../sass/main.sass */
 footer .logo-footer {
   color: white;
   font-family: Shrikhand, sans-serif;
@@ -753,7 +750,7 @@ footer .logo-footer {
   padding-bottom: 0;
   padding-right: 0;
 }
-/* line 145, ../sass/main.sass */
+/* line 163, ../sass/main.sass */
 footer ol {
   display: flex;
   flex-direction: column;
@@ -766,70 +763,70 @@ footer ol {
   font-size: 15px;
   margin-bottom: 0px;
 }
-/* line 156, ../sass/main.sass */
+/* line 174, ../sass/main.sass */
 footer ol li {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-/* line 161, ../sass/main.sass */
+/* line 179, ../sass/main.sass */
 footer ol .footer-icon {
   margin-right: 10px;
 }
-/* line 163, ../sass/main.sass */
+/* line 181, ../sass/main.sass */
 footer ol .px {
   padding-left: 7px;
 }
 
-/* line 168, ../sass/main.sass */
+/* line 186, ../sass/main.sass */
 label input[type="checkbox"] {
   display: none;
 }
 
-/* line 171, ../sass/main.sass */
+/* line 189, ../sass/main.sass */
 .custom-checkbox {
   margin-left: 2em;
   position: relative;
   cursor: pointer;
 }
 
-/* line 176, ../sass/main.sass */
+/* line 194, ../sass/main.sass */
 .custom-checkbox .fa-heart {
   font-size: 30px;
   position: relative;
   top: 10px;
 }
 
-/* line 181, ../sass/main.sass */
+/* line 199, ../sass/main.sass */
 .custom-checkbox .heart-empty {
   position: absolute;
   font-size: 30p;
   top: 10px;
 }
 
-/* line 186, ../sass/main.sass */
+/* line 204, ../sass/main.sass */
 .custom-checkbox .heart {
   opacity: 0;
   transition: opacity 0.3s;
 }
 
-/* line 190, ../sass/main.sass */
+/* line 208, ../sass/main.sass */
 .custom-checkbox:hover .heart {
   opacity: 1;
 }
 
-/* line 193, ../sass/main.sass */
+/* line 211, ../sass/main.sass */
 .custom-checkbox:hover .heart-empty {
   opacity: 0;
 }
 
-/* line 196, ../sass/main.sass */
+/* line 214, ../sass/main.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart {
   opacity: 1;
 }
 
-/* line 200, ../sass/main.sass */
+/* line 218, ../sass/main.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart-empty {
   opacity: 0;
 }
@@ -860,19 +857,14 @@ label input[type="checkbox"] {
     background-color: red !important;
   }
 
-  /* line 20, ../sass/responsive-sass/_main-responsive.sass */
-  footer {
-    position: fixed;
-    height: 100% !important;
-  }
-  /* line 23, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 21, ../sass/responsive-sass/_main-responsive.sass */
   footer .logo-footer {
     padding-top: 10px;
     padding-right: 0px;
     display: flex;
     justify-content: center;
   }
-  /* line 28, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 26, ../sass/responsive-sass/_main-responsive.sass */
   footer ol {
     display: flex;
     flex-direction: row !important;
