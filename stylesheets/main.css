@@ -195,6 +195,20 @@ li:hover {
   transition: 0.2s;
 }
 
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes {
+  0%;
+  100%;
+}
 /* line 1, ../sass/generic-sass/_generic.sass */
 .width {
   width: 100%;
@@ -494,8 +508,9 @@ li:hover {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  opacity: 100%;
 }
-/* line 62, ../sass/_menu.sass */
+/* line 63, ../sass/_menu.sass */
 .block-entrees .line {
   border-radius: 20px;
   background-color: #99e2d0;
@@ -504,7 +519,7 @@ li:hover {
   margin-left: 20px;
   align-self: flex-start;
 }
-/* line 69, ../sass/_menu.sass */
+/* line 70, ../sass/_menu.sass */
 .block-entrees .menu-button {
   margin-top: 20px;
   background-color: white;
@@ -518,20 +533,22 @@ li:hover {
   width: 80%;
   justify-content: space-between;
   height: 45px;
+  -webkit-animation: fadein 2s;
 }
-/* line 82, ../sass/_menu.sass */
+/* line 84, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
+  -webkit-animation: fadein 1s;
 }
-/* line 88, ../sass/_menu.sass */
+/* line 91, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix .menu- {
   font-size: 15px;
 }
-/* line 90, ../sass/_menu.sass */
+/* line 93, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix .menu-- {
   text-overflow: ellipsis;
   overflow: hidden;
@@ -539,7 +556,7 @@ li:hover {
   white-space: nowrap;
 }
 
-/* line 96, ../sass/_menu.sass */
+/* line 99, ../sass/_menu.sass */
 .btn-commander {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
