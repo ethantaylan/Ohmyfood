@@ -1,5 +1,6 @@
 /* REPONSIVE DE LA PAGE PRINCIPALE */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 /* line 1, ../sass/generic-sass/_checkbox.sass */
 label input[type="checkbox"] {
   display: none;
@@ -232,7 +233,7 @@ body {
 
 /* line 33, ../sass/generic-sass/_generic.sass */
 .sk {
-  font-family: Shrikhand;
+  font-family: Shrikhand, sans-serif;
 }
 
 /* line 36, ../sass/generic-sass/_generic.sass */
@@ -254,6 +255,11 @@ body {
 /* line 46, ../sass/generic-sass/_generic.sass */
 .no-decoration:visited {
   color: inherit;
+}
+
+/* line 49, ../sass/generic-sass/_generic.sass */
+.header-shadow {
+  box-shadow: 0px 0px 5px gray;
 }
 
 /* line 7, ../sass/_contact.sass */
@@ -424,21 +430,13 @@ body {
   display: flex;
   align-items: center;
 }
-/* line 18, ../sass/_menu.sass */
-.arrow-plus-logo .arrow {
-  font-size: 20px;
-  position: absolute;
-  top: 25px;
-  left: -60px;
-  color: #323232;
-}
 
-/* line 25, ../sass/_menu.sass */
+/* line 19, ../sass/_menu.sass */
 .block-image {
   height: 180px;
 }
 
-/* line 28, ../sass/_menu.sass */
+/* line 22, ../sass/_menu.sass */
 .img-page-restaurant {
   width: 100%;
   object-fit: cover;
@@ -446,9 +444,10 @@ body {
   padding: 0;
   position: absolute;
   z-index: -999;
+  min-width: 320px;
 }
 
-/* line 36, ../sass/_menu.sass */
+/* line 31, ../sass/_menu.sass */
 .block-menu {
   background-color: #ebebeb;
   display: flex;
@@ -459,7 +458,7 @@ body {
   border-top-right-radius: 35px;
 }
 
-/* line 45, ../sass/_menu.sass */
+/* line 40, ../sass/_menu.sass */
 .txt-plus-icon {
   font-size: 20px;
   display: flex;
@@ -468,7 +467,7 @@ body {
   width: 80%;
 }
 
-/* line 52, ../sass/_menu.sass */
+/* line 47, ../sass/_menu.sass */
 .entrees {
   text-transform: uppercase;
   margin-left: 20px;
@@ -477,7 +476,7 @@ body {
   align-self: flex-start;
 }
 
-/* line 59, ../sass/_menu.sass */
+/* line 54, ../sass/_menu.sass */
 .block-entrees {
   display: flex;
   background-color: #ebebeb;
@@ -485,7 +484,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-/* line 65, ../sass/_menu.sass */
+/* line 60, ../sass/_menu.sass */
 .block-entrees .line {
   border-radius: 20px;
   background-color: #99e2d0;
@@ -494,7 +493,7 @@ body {
   margin-left: 20px;
   align-self: flex-start;
 }
-/* line 72, ../sass/_menu.sass */
+/* line 67, ../sass/_menu.sass */
 .block-entrees .menu-button {
   margin-top: 20px;
   background-color: white;
@@ -509,7 +508,7 @@ body {
   justify-content: space-between;
   height: 45px;
 }
-/* line 85, ../sass/_menu.sass */
+/* line 80, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix {
   display: flex;
   flex-direction: row;
@@ -517,11 +516,11 @@ body {
   align-items: center;
   font-size: 14px;
 }
-/* line 91, ../sass/_menu.sass */
+/* line 86, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix .menu- {
   font-size: 15px;
 }
-/* line 93, ../sass/_menu.sass */
+/* line 88, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix .menu-- {
   text-overflow: ellipsis;
   overflow: hidden;
@@ -529,7 +528,7 @@ body {
   white-space: nowrap;
 }
 
-/* line 99, ../sass/_menu.sass */
+/* line 94, ../sass/_menu.sass */
 .btn-commander {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
@@ -547,7 +546,7 @@ body {
   padding-right: 30px;
 }
 
-/* line 13, ../sass/main.sass */
+/* line 15, ../sass/main.sass */
 header {
   width: 100%;
   align-items: center;
@@ -555,8 +554,13 @@ header {
   position: relative;
   box-shadow: 0 0 8px #c8c8c8;
 }
+/* line 21, ../sass/main.sass */
+header .nav-arrow {
+  position: absolute;
+  left: 10%;
+}
 
-/* line 20, ../sass/main.sass */
+/* line 25, ../sass/main.sass */
 .block-position {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -569,13 +573,13 @@ header {
   font-size: 16px;
   color: #414141;
 }
-/* line 31, ../sass/main.sass */
+/* line 36, ../sass/main.sass */
 .block-position .txt-loc {
   font-size: 15px;
   padding-right: 15px;
 }
 
-/* line 35, ../sass/main.sass */
+/* line 40, ../sass/main.sass */
 .block-de-titres {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -584,17 +588,17 @@ header {
   height: 100%;
   background-color: whitesmoke;
 }
-/* line 42, ../sass/main.sass */
+/* line 47, ../sass/main.sass */
 .block-de-titres .txt-reservez {
   padding-left: 40px;
   padding-right: 40px;
 }
-/* line 45, ../sass/main.sass */
+/* line 50, ../sass/main.sass */
 .block-de-titres .txt-decouvrez {
   font-weight: 400;
   font-size: 15px;
 }
-/* line 48, ../sass/main.sass */
+/* line 53, ../sass/main.sass */
 .block-de-titres .btn-explorer {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
@@ -609,56 +613,55 @@ header {
   box-shadow: 0 5px 10px #d7d7d7;
 }
 
-/* line 61, ../sass/main.sass */
+/* line 66, ../sass/main.sass */
 h2 {
   font-family: Roboto, sans-serif;
   font-weight: 700;
 }
 
-/* line 65, ../sass/main.sass */
+/* line 70, ../sass/main.sass */
 .block-fonctionnement {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-/* line 69, ../sass/main.sass */
-.block-fonctionnement .button {
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  width: 90%;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  margin-bottom: 20px;
-  justify-content: center;
-}
-/* line 78, ../sass/main.sass */
-.block-fonctionnement .button .nav {
   width: 100%;
-  font-size: 14px;
+}
+/* line 75, ../sass/main.sass */
+.block-fonctionnement .btn {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  width: 80%;
 }
 /* line 81, ../sass/main.sass */
-.block-fonctionnement .button .number-icon {
+.block-fonctionnement .btn .btn-txt {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  height: 50px;
+  box-shadow: 0 5px 20px #d7d7d7;
+  border-radius: 15px;
+  font-size: 14px;
+  width: 100%;
+  white-space: nowrap;
+  text-align: center;
+}
+/* line 92, ../sass/main.sass */
+.block-fonctionnement .btn .num-icon {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 20px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-/* line 90, ../sass/main.sass */
-.block-fonctionnement .button .number-icon .container {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-/* line 96, ../sass/main.sass */
-.block-fonctionnement .button .number-icon .number {
   position: absolute;
+  left: -12px;
+  width: 60px;
+  justify-content: space-between;
+}
+/* line 100, ../sass/main.sass */
+.block-fonctionnement .btn .num-icon .icon {
+  font-size: 16px;
+}
+/* line 102, ../sass/main.sass */
+.block-fonctionnement .btn .num-icon .number {
   font-size: 12px;
   color: white;
   padding: 4px 8px;
@@ -667,14 +670,8 @@ h2 {
   border-radius: 20px;
   left: 3%;
 }
-/* line 105, ../sass/main.sass */
-.block-fonctionnement .button .number-icon .icon {
-  margin-left: 15px;
-  color: #787878;
-  position: absolute;
-}
 
-/* line 110, ../sass/main.sass */
+/* line 111, ../sass/main.sass */
 .block-restaurants {
   font-family: Roboto, sans-serif;
   display: flex;
@@ -682,11 +679,11 @@ h2 {
   background-color: #f5f5f5;
   align-items: center;
 }
-/* line 116, ../sass/main.sass */
+/* line 117, ../sass/main.sass */
 .block-restaurants .txt-restaurant {
   align-self: flex-start;
 }
-/* line 118, ../sass/main.sass */
+/* line 119, ../sass/main.sass */
 .block-restaurants .box-restaurants {
   display: flex;
   flex-direction: column;
@@ -694,20 +691,20 @@ h2 {
   border-radius: 13px;
   position: relative;
 }
-/* line 124, ../sass/main.sass */
+/* line 125, ../sass/main.sass */
 .block-restaurants .box-restaurants .box-txt {
   font-size: 16px;
   padding: 15px;
 }
-/* line 127, ../sass/main.sass */
+/* line 128, ../sass/main.sass */
 .block-restaurants .box-restaurants .box-txt .txt-box {
   font-weight: 700;
 }
-/* line 129, ../sass/main.sass */
+/* line 130, ../sass/main.sass */
 .block-restaurants .box-restaurants .box-txt .txt--box {
   font-weight: 400;
 }
-/* line 131, ../sass/main.sass */
+/* line 132, ../sass/main.sass */
 .block-restaurants .box-restaurants .nouveau {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -719,7 +716,7 @@ h2 {
   background-color: #86e6c1;
   color: #398a6f;
 }
-/* line 141, ../sass/main.sass */
+/* line 142, ../sass/main.sass */
 .block-restaurants .box-restaurants .img {
   object-fit: cover;
   height: 175px;
@@ -727,23 +724,20 @@ h2 {
   border-top-left-radius: 13px;
   width: 100%;
 }
-/* line 147, ../sass/main.sass */
+/* line 148, ../sass/main.sass */
 .block-restaurants .box-restaurants .block-align-txt {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-/* line 152, ../sass/main.sass */
+/* line 153, ../sass/main.sass */
 footer {
   width: 100%;
   padding-right: 0px;
   background-color: #323232;
-  position: fixed;
-  left: 0;
-  bottom: 0;
 }
-/* line 159, ../sass/main.sass */
+/* line 157, ../sass/main.sass */
 footer .logo-footer {
   color: white;
   font-family: Shrikhand, sans-serif;
@@ -752,7 +746,7 @@ footer .logo-footer {
   padding-bottom: 0;
   padding-right: 0;
 }
-/* line 166, ../sass/main.sass */
+/* line 164, ../sass/main.sass */
 footer ol {
   display: flex;
   flex-direction: column;
@@ -765,70 +759,71 @@ footer ol {
   font-size: 15px;
   margin-bottom: 0px;
 }
-/* line 177, ../sass/main.sass */
+/* line 175, ../sass/main.sass */
 footer ol li {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-/* line 182, ../sass/main.sass */
+/* line 180, ../sass/main.sass */
 footer ol .footer-icon {
   margin-right: 10px;
 }
-/* line 184, ../sass/main.sass */
+/* line 182, ../sass/main.sass */
 footer ol .px {
   padding-left: 7px;
 }
 
-/* line 189, ../sass/main.sass */
+/* BOUTTON LIKE */
+/* line 187, ../sass/main.sass */
 label input[type="checkbox"] {
   display: none;
 }
 
-/* line 192, ../sass/main.sass */
+/* line 190, ../sass/main.sass */
 .custom-checkbox {
   margin-left: 2em;
   position: relative;
   cursor: pointer;
 }
 
-/* line 197, ../sass/main.sass */
+/* line 195, ../sass/main.sass */
 .custom-checkbox .fa-heart {
   font-size: 30px;
   position: relative;
   top: 10px;
 }
 
-/* line 202, ../sass/main.sass */
+/* line 200, ../sass/main.sass */
 .custom-checkbox .heart-empty {
   position: absolute;
   font-size: 30p;
   top: 10px;
 }
 
-/* line 207, ../sass/main.sass */
+/* line 205, ../sass/main.sass */
 .custom-checkbox .heart {
   opacity: 0;
   transition: opacity 0.3s;
 }
 
-/* line 211, ../sass/main.sass */
+/* line 209, ../sass/main.sass */
 .custom-checkbox:hover .heart {
   opacity: 1;
 }
 
-/* line 214, ../sass/main.sass */
+/* line 212, ../sass/main.sass */
 .custom-checkbox:hover .heart-empty {
   opacity: 0;
 }
 
-/* line 217, ../sass/main.sass */
+/* line 215, ../sass/main.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart {
   opacity: 1;
 }
 
-/* line 221, ../sass/main.sass */
+/* line 219, ../sass/main.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart-empty {
   opacity: 0;
 }
@@ -839,34 +834,20 @@ label input[type="checkbox"] {
   .block-fonctionnement {
     flex-direction: row !important;
     justify-content: space-between !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
   }
-  /* line 9, ../sass/responsive-sass/_main-responsive.sass */
-  .block-fonctionnement .button {
-    width: 30% !important;
-  }
-  /* line 11, ../sass/responsive-sass/_main-responsive.sass */
-  .block-fonctionnement .button .number {
-    left: unset !important;
-  }
-  /* line 13, ../sass/responsive-sass/_main-responsive.sass */
-  .block-fonctionnement .number-plus-icon {
-    display: flex !important;
-    align-items: center !important;
-    width: 100px !important;
-    justify-content: space-around !important;
-    background-color: red !important;
+  /* line 7, ../sass/responsive-sass/_main-responsive.sass */
+  .block-fonctionnement .btn {
+    margin: 10px;
   }
 
-  /* line 21, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 10, ../sass/responsive-sass/_main-responsive.sass */
   footer .logo-footer {
     padding-top: 10px;
     padding-right: 0px;
     display: flex;
     justify-content: center;
   }
-  /* line 26, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 15, ../sass/responsive-sass/_main-responsive.sass */
   footer ol {
     display: flex;
     flex-direction: row !important;
@@ -876,5 +857,6 @@ label input[type="checkbox"] {
     width: 80%;
     margin: 0 auto;
     margin-top: 20px;
+    align-items: center !important;
   }
 }

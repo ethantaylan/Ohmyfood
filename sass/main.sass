@@ -6,9 +6,11 @@
 @import generic-sass/variables
 @import generic-sass/generic
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap')
 
 @import contact
 @import menu
+
 
 header 
     width: 100%
@@ -16,6 +18,9 @@ header
     z-index: 1
     position: relative
     box-shadow: 0 0 8px rgb(200, 200, 200)
+    .nav-arrow
+        position: absolute
+        left: 10%
 
 .block-position
     font-family: Roboto, sans-serif
@@ -66,35 +71,35 @@ h2
     display: flex
     flex-direction: column
     align-items: center
-    .button
-        font-family: Roboto, sans-serif
-        font-weight: 700
-        width: 90%
+    width: 100%
+    .btn
         display: flex
-        align-items: center
         flex-direction: row
-        margin-bottom: 20px
-        justify-content: center
-        .nav
-            width: 100%
+        position: relative
+        align-items: center
+        width: 80%
+        .btn-txt
+            font-family: Roboto, sans-serif
+            font-weight: 700
+            height: 50px
+            box-shadow: 0 5px 20px #d7d7d7
+            border-radius: 15px
             font-size: 14px
-        .number-icon
+            width: 100%
+            white-space: nowrap
+            text-align: center
+                
+        .num-icon
             display: flex
             flex-direction: row
             align-items: center
+            position: absolute
+            left: -12px
+            width: 60px
             justify-content: space-between
-            width: 100%
-            padding: 20px
-            padding-top: 25px
-            padding-bottom: 25px
-            .container
-                width: 100%
-                display: flex
-                flex-direction: row
-                justify-content: space-evenly
-                align-items: center
+            .icon
+                font-size: 16px
             .number
-                position: absolute
                 font-size: 12px
                 color: white  
                 padding: 4px 8px  
@@ -102,10 +107,6 @@ h2
                 text-align: center
                 border-radius: 20px
                 left: 3%
-            .icon
-                margin-left: 15px
-                color: $dimgray
-                position: absolute
 
 .block-restaurants
     font-family: Roboto, sans-serif
@@ -153,9 +154,6 @@ footer
     width: 100%
     padding-right: 0px
     background-color: #323232
-    position: fixed
-    left: 0
-    bottom: 0
     .logo-footer
         color: white
         font-family: Shrikhand, sans-serif
@@ -185,7 +183,7 @@ footer
             padding-left: 7px
 
 
-
+/* BOUTTON LIKE */
 label input[type="checkbox"] 
     display: none
 
