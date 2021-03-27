@@ -1,9 +1,11 @@
 mobile / tablette
 
-1 - la fleche du header qui ne ce deplace pas par rapport a la page, elle reste coller au logo
-2 - scroll en bas en 320px
-3 - coeur qui ne se rempli pas en degrader 
+1-coeur qui ne se rempli pas en degrader 
 
 desktop
 
-icon et number sont coller
+
+
+mobile et desktop:
+
+1-Probleme lié au footer, footer non coller au bottom

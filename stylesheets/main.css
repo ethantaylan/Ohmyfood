@@ -297,19 +297,18 @@ li:hover {
   margin-top: 25px;
   display: flex;
   width: 100%;
-  height: 100%;
   margin-bottom: 40px;
   flex-direction: column;
   align-items: center;
 }
-/* line 32, ../sass/_contact.sass */
+/* line 31, ../sass/_contact.sass */
 .block-contact .int-contact {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   width: 80%;
 }
-/* line 37, ../sass/_contact.sass */
+/* line 36, ../sass/_contact.sass */
 .block-contact .int-contact .name {
   color: #d7d7d7;
   display: flex;
@@ -322,7 +321,7 @@ li:hover {
   position: relative;
   margin-bottom: 10px;
 }
-/* line 48, ../sass/_contact.sass */
+/* line 47, ../sass/_contact.sass */
 .block-contact .int-contact .name .int-name {
   font-size: 13px;
   display: flex;
@@ -330,7 +329,7 @@ li:hover {
   margin: 8px;
   width: 100px;
 }
-/* line 54, ../sass/_contact.sass */
+/* line 53, ../sass/_contact.sass */
 .block-contact .int-contact .name .underline {
   width: auto;
   height: 75%;
@@ -338,11 +337,11 @@ li:hover {
   position: absolute;
   left: 30%;
 }
-/* line 60, ../sass/_contact.sass */
+/* line 59, ../sass/_contact.sass */
 .block-contact .int-contact .name .message {
   height: 150px;
 }
-/* line 62, ../sass/_contact.sass */
+/* line 61, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message {
   color: #d7d7d7;
   display: flex;
@@ -357,12 +356,12 @@ li:hover {
   position: relative;
   height: 153px;
 }
-/* line 75, ../sass/_contact.sass */
+/* line 74, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .int-name-block-message {
   width: 100%;
   padding-bottom: 10px;
 }
-/* line 78, ../sass/_contact.sass */
+/* line 77, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .underline-block-message {
   width: 80%;
   height: 1px;
@@ -370,7 +369,7 @@ li:hover {
   position: absolute;
   top: 95px;
 }
-/* line 84, ../sass/_contact.sass */
+/* line 83, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .underline-two-block-message {
   width: 80%;
   height: 1px;
@@ -378,7 +377,7 @@ li:hover {
   position: absolute;
   top: 125px;
 }
-/* line 90, ../sass/_contact.sass */
+/* line 89, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .underline-three-block-message {
   width: 80%;
   height: 1px;
@@ -386,7 +385,7 @@ li:hover {
   position: absolute;
   top: 155px;
 }
-/* line 96, ../sass/_contact.sass */
+/* line 95, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .input-block-message {
   border-left-style: none;
   border-top-style: solid;
@@ -394,7 +393,7 @@ li:hover {
   border-top-color: #ff79da;
   margin: 0px;
 }
-/* line 102, ../sass/_contact.sass */
+/* line 101, ../sass/_contact.sass */
 .block-contact .int-contact input {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -408,7 +407,7 @@ li:hover {
   border-left-color: #ff79da;
   margin: 8px;
 }
-/* line 115, ../sass/_contact.sass */
+/* line 114, ../sass/_contact.sass */
 .block-contact .btn-envoyez {
   margin-top: 25px;
   font-family: Roboto, sans-serif;
@@ -474,8 +473,12 @@ li:hover {
   justify-content: space-between;
   width: 80%;
 }
+/* line 46, ../sass/_menu.sass */
+.txt-plus-icon .txt-delice {
+  letter-spacing: 0.5px;
+}
 
-/* line 47, ../sass/_menu.sass */
+/* line 49, ../sass/_menu.sass */
 .entrees {
   text-transform: uppercase;
   margin-left: 20px;
@@ -484,7 +487,7 @@ li:hover {
   align-self: flex-start;
 }
 
-/* line 54, ../sass/_menu.sass */
+/* line 56, ../sass/_menu.sass */
 .block-entrees {
   display: flex;
   background-color: #ebebeb;
@@ -492,7 +495,7 @@ li:hover {
   flex-direction: column;
   align-items: center;
 }
-/* line 60, ../sass/_menu.sass */
+/* line 62, ../sass/_menu.sass */
 .block-entrees .line {
   border-radius: 20px;
   background-color: #99e2d0;
@@ -501,7 +504,7 @@ li:hover {
   margin-left: 20px;
   align-self: flex-start;
 }
-/* line 67, ../sass/_menu.sass */
+/* line 69, ../sass/_menu.sass */
 .block-entrees .menu-button {
   margin-top: 20px;
   background-color: white;
@@ -516,7 +519,7 @@ li:hover {
   justify-content: space-between;
   height: 45px;
 }
-/* line 80, ../sass/_menu.sass */
+/* line 82, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix {
   display: flex;
   flex-direction: row;
@@ -524,11 +527,11 @@ li:hover {
   align-items: center;
   font-size: 14px;
 }
-/* line 86, ../sass/_menu.sass */
+/* line 88, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix .menu- {
   font-size: 15px;
 }
-/* line 88, ../sass/_menu.sass */
+/* line 90, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix .menu-- {
   text-overflow: ellipsis;
   overflow: hidden;
@@ -536,7 +539,7 @@ li:hover {
   white-space: nowrap;
 }
 
-/* line 94, ../sass/_menu.sass */
+/* line 96, ../sass/_menu.sass */
 .btn-commander {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
@@ -558,23 +561,25 @@ li:hover {
 body, html {
   min-width: 320px;
   margin: 0px;
+  height: 100%;
 }
 
-/* line 18, ../sass/main.sass */
+/* line 19, ../sass/main.sass */
 header {
   width: 100%;
   align-items: center;
   z-index: 1;
   position: relative;
   box-shadow: 0 0 8px #c8c8c8;
+  color: black;
 }
-/* line 24, ../sass/main.sass */
+/* line 26, ../sass/main.sass */
 header .nav-arrow {
   position: absolute;
   left: 10%;
 }
 
-/* line 28, ../sass/main.sass */
+/* line 30, ../sass/main.sass */
 .block-position {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -587,32 +592,31 @@ header .nav-arrow {
   font-size: 16px;
   color: #414141;
 }
-/* line 39, ../sass/main.sass */
+/* line 41, ../sass/main.sass */
 .block-position .txt-loc {
   font-size: 15px;
   padding-right: 15px;
 }
 
-/* line 43, ../sass/main.sass */
+/* line 45, ../sass/main.sass */
 .block-de-titres {
   font-family: Roboto, sans-serif;
   font-weight: 700;
   margin-top: 0;
   text-align: center;
-  height: 100%;
   background-color: whitesmoke;
 }
-/* line 50, ../sass/main.sass */
+/* line 51, ../sass/main.sass */
 .block-de-titres .txt-reservez {
   padding-left: 40px;
   padding-right: 40px;
 }
-/* line 53, ../sass/main.sass */
+/* line 54, ../sass/main.sass */
 .block-de-titres .txt-decouvrez {
   font-weight: 400;
   font-size: 15px;
 }
-/* line 56, ../sass/main.sass */
+/* line 57, ../sass/main.sass */
 .block-de-titres .btn-explorer {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
@@ -627,20 +631,20 @@ header .nav-arrow {
   box-shadow: 0 5px 10px #d7d7d7;
 }
 
-/* line 69, ../sass/main.sass */
+/* line 70, ../sass/main.sass */
 h2 {
   font-family: Roboto, sans-serif;
   font-weight: 700;
 }
 
-/* line 73, ../sass/main.sass */
+/* line 74, ../sass/main.sass */
 .block-fonctionnement {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
-/* line 78, ../sass/main.sass */
+/* line 79, ../sass/main.sass */
 .block-fonctionnement .btn {
   display: flex;
   flex-direction: row;
@@ -648,7 +652,7 @@ h2 {
   align-items: center;
   width: 80%;
 }
-/* line 84, ../sass/main.sass */
+/* line 85, ../sass/main.sass */
 .block-fonctionnement .btn .btn-txt {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -663,7 +667,7 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-/* line 97, ../sass/main.sass */
+/* line 98, ../sass/main.sass */
 .block-fonctionnement .btn .num-icon {
   display: flex;
   flex-direction: row;
@@ -671,7 +675,7 @@ h2 {
   position: absolute;
   left: -12px;
 }
-/* line 103, ../sass/main.sass */
+/* line 104, ../sass/main.sass */
 .block-fonctionnement .btn .num-icon .number {
   font-size: 12px;
   color: white;
@@ -682,7 +686,7 @@ h2 {
   margin-right: 16px;
 }
 
-/* line 112, ../sass/main.sass */
+/* line 113, ../sass/main.sass */
 .block-restaurants {
   font-family: Roboto, sans-serif;
   display: flex;
@@ -690,11 +694,11 @@ h2 {
   background-color: #f5f5f5;
   align-items: center;
 }
-/* line 118, ../sass/main.sass */
+/* line 119, ../sass/main.sass */
 .block-restaurants .txt-restaurant-mobile-tablette {
   align-self: flex-start;
 }
-/* line 120, ../sass/main.sass */
+/* line 121, ../sass/main.sass */
 .block-restaurants .box-restaurants {
   display: flex;
   flex-direction: column;
@@ -702,20 +706,20 @@ h2 {
   border-radius: 13px;
   position: relative;
 }
-/* line 126, ../sass/main.sass */
+/* line 127, ../sass/main.sass */
 .block-restaurants .box-restaurants .box-txt {
   font-size: 16px;
   padding: 15px;
 }
-/* line 129, ../sass/main.sass */
+/* line 130, ../sass/main.sass */
 .block-restaurants .box-restaurants .box-txt .txt-box {
   font-weight: 700;
 }
-/* line 131, ../sass/main.sass */
+/* line 132, ../sass/main.sass */
 .block-restaurants .box-restaurants .box-txt .txt--box {
   font-weight: 400;
 }
-/* line 133, ../sass/main.sass */
+/* line 134, ../sass/main.sass */
 .block-restaurants .box-restaurants .nouveau {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -727,7 +731,7 @@ h2 {
   background-color: #86e6c1;
   color: #398a6f;
 }
-/* line 143, ../sass/main.sass */
+/* line 144, ../sass/main.sass */
 .block-restaurants .box-restaurants .img {
   object-fit: cover;
   height: 175px;
@@ -735,20 +739,20 @@ h2 {
   border-top-left-radius: 13px;
   width: 100%;
 }
-/* line 149, ../sass/main.sass */
+/* line 150, ../sass/main.sass */
 .block-restaurants .box-restaurants .block-align-txt {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-/* line 154, ../sass/main.sass */
+/* line 155, ../sass/main.sass */
 footer {
   width: 100%;
   padding-right: 0px;
   background-color: #323232;
 }
-/* line 158, ../sass/main.sass */
+/* line 159, ../sass/main.sass */
 footer .logo-footer {
   color: white;
   font-family: Shrikhand, sans-serif;
@@ -757,7 +761,7 @@ footer .logo-footer {
   padding-bottom: 0;
   padding-right: 0;
 }
-/* line 165, ../sass/main.sass */
+/* line 166, ../sass/main.sass */
 footer ol {
   display: flex;
   flex-direction: column;
@@ -770,71 +774,71 @@ footer ol {
   font-size: 15px;
   margin-bottom: 0px;
 }
-/* line 176, ../sass/main.sass */
+/* line 177, ../sass/main.sass */
 footer ol li {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-/* line 181, ../sass/main.sass */
+/* line 182, ../sass/main.sass */
 footer ol .footer-icon {
   margin-right: 10px;
 }
-/* line 183, ../sass/main.sass */
+/* line 184, ../sass/main.sass */
 footer ol .px {
   padding-left: 7px;
 }
 
 /* BOUTTON LIKE */
-/* line 188, ../sass/main.sass */
+/* line 189, ../sass/main.sass */
 label input[type="checkbox"] {
   display: none;
 }
 
-/* line 191, ../sass/main.sass */
+/* line 192, ../sass/main.sass */
 .custom-checkbox {
   margin-left: 2em;
   position: relative;
   cursor: pointer;
 }
 
-/* line 196, ../sass/main.sass */
+/* line 197, ../sass/main.sass */
 .custom-checkbox .fa-heart {
   font-size: 30px;
   position: relative;
   top: 10px;
 }
 
-/* line 201, ../sass/main.sass */
+/* line 202, ../sass/main.sass */
 .custom-checkbox .heart-empty {
   position: absolute;
   font-size: 30p;
   top: 10px;
 }
 
-/* line 206, ../sass/main.sass */
+/* line 207, ../sass/main.sass */
 .custom-checkbox .heart {
   opacity: 0;
   transition: opacity 0.3s;
 }
 
-/* line 210, ../sass/main.sass */
+/* line 211, ../sass/main.sass */
 .custom-checkbox:hover .heart {
   opacity: 1;
 }
 
-/* line 213, ../sass/main.sass */
+/* line 214, ../sass/main.sass */
 .custom-checkbox:hover .heart-empty {
   opacity: 0;
 }
 
-/* line 216, ../sass/main.sass */
+/* line 217, ../sass/main.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart {
   opacity: 1;
 }
 
-/* line 220, ../sass/main.sass */
+/* line 221, ../sass/main.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart-empty {
   opacity: 0;
 }
@@ -924,32 +928,32 @@ label input[type="checkbox"] {
   }
 }
 @media screen and (min-width: 769px) and (max-width: 880px) {
-  /* line 61, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 62, ../sass/responsive-sass/_main-responsive.sass */
   .btn {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
   }
 
-  /* line 66, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 67, ../sass/responsive-sass/_main-responsive.sass */
   .btn-txt {
     padding-top: 10px;
   }
 
-  /* line 69, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 70, ../sass/responsive-sass/_main-responsive.sass */
   .num-icon {
     width: 140px !important;
     justify-content: space-between !important;
     padding-top: 10px;
   }
 
-  /* line 74, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 75, ../sass/responsive-sass/_main-responsive.sass */
   .number {
     position: absolute;
     top: 25px;
   }
 
-  /* line 78, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 79, ../sass/responsive-sass/_main-responsive.sass */
   .icon {
     position: absolute;
     left: 115px;
