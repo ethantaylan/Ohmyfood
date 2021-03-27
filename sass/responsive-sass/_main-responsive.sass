@@ -1,48 +1,81 @@
 @media screen and (min-width: 320px) and (max-width: 768px)
+    .txt-restaurants-mobile-tablette
+        align-self: flex-start
+
+    .txt-restaurants-desktop
+        display: none
 
 @media screen and (min-width: 769px)
     nav
         width: 100%
         display: flex
         justify-content: center
+
     .block-fonctionnement
         display: flex
         flex-direction: row
         width: 100%
-        .btn
-            margin: 20px
-    footer
-        .logo-footer
-            padding-top: 10px
-            padding-right: 0px
-            display: flex
-            justify-content: center
-        ol 
-            display: flex
-            flex-direction: row !important
-            justify-content: space-between !important
-            height: 10px !important
-            padding-left: 0 !important
-            width: 80%
-            margin: 0 auto
-            margin-top: 20px
-            align-items: center !important
 
-@media screen and (min-width: 770px) and (max-width: 880px)
+    .btn
+        margin: 20px
+
+    .block-restaurants
+        flex-direction: row
+        width: 100% !important
+        justify-content: space-between
+        align-items: center
+
+    .box-restaurants
+        width: 20% !important
+        margin: 20px
+
+    .img
+        width: 100% !important
+        height: 300px !important
+            
+    .txt-restaurants-desktop
+        display: block !important
+        margin-left: 20px !important 
+
+    .txt-restaurants-mobile-tablette
+        display: none    
+
+    .logo-footer
+        padding-top: 10px
+        padding-right: 0px
+        display: flex
+        justify-content: center
+
+    ol 
+        display: flex
+        flex-direction: row !important
+        justify-content: space-between !important
+        height: 10px !important
+        padding-left: 0 !important
+        width: 80%
+        margin: 0 auto
+        margin-top: 20px
+        align-items: center !important
+
+@media screen and (min-width: 769px) and (max-width: 880px)
     .btn
         display: flex !important
         flex-direction: column !important
         align-items: center !important
-        .btn-txt
-            padding-top: 10px
-        .num-icon
-            width: 140px !important
-            justify-content: space-between !important
-            padding-top: 10px
-            .number
-                position: absolute
-                top: 25px
-            .icon
-                position: absolute
-                left: 115px
-                top: 20px
+        
+    .btn-txt
+        padding-top: 10px
+
+    .num-icon
+        width: 140px !important
+        justify-content: space-between !important
+        padding-top: 10px
+
+    .number
+        position: absolute
+        top: 25px
+
+    .icon
+        position: absolute
+        left: 115px
+        top: 20px
