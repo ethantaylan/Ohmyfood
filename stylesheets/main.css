@@ -292,7 +292,7 @@ li:hover {
   padding-right: 15px;
 }
 
-/* line 24, ../sass/_contact.sass */
+/* line 23, ../sass/_contact.sass */
 .block-contact {
   margin-top: 25px;
   display: flex;
@@ -301,14 +301,14 @@ li:hover {
   flex-direction: column;
   align-items: center;
 }
-/* line 31, ../sass/_contact.sass */
+/* line 30, ../sass/_contact.sass */
 .block-contact .int-contact {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   width: 80%;
 }
-/* line 36, ../sass/_contact.sass */
+/* line 35, ../sass/_contact.sass */
 .block-contact .int-contact .name {
   color: #d7d7d7;
   display: flex;
@@ -321,7 +321,7 @@ li:hover {
   position: relative;
   margin-bottom: 10px;
 }
-/* line 47, ../sass/_contact.sass */
+/* line 46, ../sass/_contact.sass */
 .block-contact .int-contact .name .int-name {
   font-size: 13px;
   display: flex;
@@ -329,7 +329,7 @@ li:hover {
   margin: 8px;
   width: 100px;
 }
-/* line 53, ../sass/_contact.sass */
+/* line 52, ../sass/_contact.sass */
 .block-contact .int-contact .name .underline {
   width: auto;
   height: 75%;
@@ -337,11 +337,11 @@ li:hover {
   position: absolute;
   left: 30%;
 }
-/* line 59, ../sass/_contact.sass */
+/* line 58, ../sass/_contact.sass */
 .block-contact .int-contact .name .message {
   height: 150px;
 }
-/* line 61, ../sass/_contact.sass */
+/* line 60, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message {
   color: #d7d7d7;
   display: flex;
@@ -356,12 +356,12 @@ li:hover {
   position: relative;
   height: 153px;
 }
-/* line 74, ../sass/_contact.sass */
+/* line 73, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .int-name-block-message {
   width: 100%;
   padding-bottom: 10px;
 }
-/* line 77, ../sass/_contact.sass */
+/* line 76, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .underline-block-message {
   width: 80%;
   height: 1px;
@@ -369,7 +369,7 @@ li:hover {
   position: absolute;
   top: 95px;
 }
-/* line 83, ../sass/_contact.sass */
+/* line 82, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .underline-two-block-message {
   width: 80%;
   height: 1px;
@@ -377,7 +377,7 @@ li:hover {
   position: absolute;
   top: 125px;
 }
-/* line 89, ../sass/_contact.sass */
+/* line 88, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .underline-three-block-message {
   width: 80%;
   height: 1px;
@@ -385,7 +385,7 @@ li:hover {
   position: absolute;
   top: 155px;
 }
-/* line 95, ../sass/_contact.sass */
+/* line 94, ../sass/_contact.sass */
 .block-contact .int-contact .name-block-message .input-block-message {
   border-left-style: none;
   border-top-style: solid;
@@ -393,8 +393,8 @@ li:hover {
   border-top-color: #ff79da;
   margin: 0px;
 }
-/* line 101, ../sass/_contact.sass */
-.block-contact .int-contact input {
+/* line 100, ../sass/_contact.sass */
+.block-contact .int-contact textarea, .block-contact .int-contact input {
   padding-top: 10px;
   padding-bottom: 10px;
   display: flex;
@@ -407,7 +407,7 @@ li:hover {
   border-left-color: #ff79da;
   margin: 8px;
 }
-/* line 114, ../sass/_contact.sass */
+/* line 113, ../sass/_contact.sass */
 .block-contact .btn-envoyez {
   margin-top: 25px;
   font-family: Roboto, sans-serif;
@@ -791,54 +791,54 @@ footer ol .px {
 }
 
 /* BOUTTON LIKE */
-/* line 189, ../sass/main.sass */
+/* line 188, ../sass/main.sass */
 label input[type="checkbox"] {
   display: none;
 }
 
-/* line 192, ../sass/main.sass */
+/* line 191, ../sass/main.sass */
 .custom-checkbox {
   margin-left: 2em;
   position: relative;
   cursor: pointer;
 }
 
-/* line 197, ../sass/main.sass */
+/* line 196, ../sass/main.sass */
 .custom-checkbox .fa-heart {
   font-size: 30px;
   position: relative;
   top: 10px;
 }
 
-/* line 202, ../sass/main.sass */
+/* line 201, ../sass/main.sass */
 .custom-checkbox .heart-empty {
   position: absolute;
   font-size: 30p;
   top: 10px;
 }
 
-/* line 207, ../sass/main.sass */
+/* line 206, ../sass/main.sass */
 .custom-checkbox .heart {
   opacity: 0;
   transition: opacity 0.3s;
 }
 
-/* line 211, ../sass/main.sass */
+/* line 210, ../sass/main.sass */
 .custom-checkbox:hover .heart {
   opacity: 1;
 }
 
-/* line 214, ../sass/main.sass */
+/* line 213, ../sass/main.sass */
 .custom-checkbox:hover .heart-empty {
   opacity: 0;
 }
 
-/* line 217, ../sass/main.sass */
+/* line 216, ../sass/main.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart {
   opacity: 1;
 }
 
-/* line 221, ../sass/main.sass */
+/* line 219, ../sass/main.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart-empty {
   opacity: 0;
 }
