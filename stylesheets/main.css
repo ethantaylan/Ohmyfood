@@ -17,7 +17,6 @@ label input[type="checkbox"] {
 .custom-checkbox .fa-heart {
   font-size: 30px;
   position: relative;
-  top: 10px;
 }
 /* line 15, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox .heart {
@@ -28,23 +27,37 @@ label input[type="checkbox"] {
 .custom-checkbox .heart-empty {
   position: absolute;
   font-size: 30p;
-  top: 10px;
 }
-/* line 23, ../sass/generic-sass/_checkbox.sass */
+/* line 22, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox:hover .heart {
   opacity: 1;
 }
-/* line 25, ../sass/generic-sass/_checkbox.sass */
+/* line 24, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox:hover .heart-empty {
   opacity: 0;
 }
-/* line 30, ../sass/generic-sass/_checkbox.sass */
+/* line 29, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart {
   opacity: 1;
 }
-/* line 32, ../sass/generic-sass/_checkbox.sass */
+/* line 31, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart-empty {
   opacity: 0;
+}
+
+/* line 35, ../sass/generic-sass/_checkbox.sass */
+.fill-gradient-linear path {
+  fill: url(#linear);
+}
+
+/* line 39, ../sass/generic-sass/_checkbox.sass */
+.linear-stop1 {
+  stop-color: #9356dc;
+}
+
+/* line 43, ../sass/generic-sass/_checkbox.sass */
+.linear-stop2 {
+  stop-color: #ff79da;
 }
 
 /* line 1, ../sass/generic-sass/_spaces.sass */
@@ -251,6 +264,13 @@ li:hover {
 /* line 48, ../sass/generic-sass/_generic.sass */
 .container {
   min-height: 83.7vh;
+}
+
+/* line 51, ../sass/generic-sass/_generic.sass */
+.btn-like {
+  position: absolute;
+  width: 1px;
+  height: 1px;
 }
 
 /* line 7, ../sass/_contact.sass */
@@ -688,8 +708,12 @@ h2 {
   border-radius: 20px;
   margin-right: 16px;
 }
+/* line 124, ../sass/main.sass */
+.block-fonctionnement .btn .num-icon .icon {
+  color: #787878;
+}
 
-/* line 125, ../sass/main.sass */
+/* line 127, ../sass/main.sass */
 .block-restaurants {
   font-family: Roboto, sans-serif;
   display: flex;
@@ -697,11 +721,11 @@ h2 {
   background-color: #f5f5f5;
   align-items: center;
 }
-/* line 131, ../sass/main.sass */
+/* line 133, ../sass/main.sass */
 .block-restaurants .txt-restaurant-mobile-tablette {
   align-self: flex-start;
 }
-/* line 133, ../sass/main.sass */
+/* line 135, ../sass/main.sass */
 .block-restaurants .box-restaurants {
   display: flex;
   flex-direction: column;
@@ -709,26 +733,32 @@ h2 {
   border-radius: 13px;
   position: relative;
 }
-/* line 139, ../sass/main.sass */
+/* line 141, ../sass/main.sass */
 .block-restaurants .box-restaurants:hover {
   cursor: pointer;
   transform: scale(1.01);
   transition: 0.2s;
 }
-/* line 143, ../sass/main.sass */
+/* line 145, ../sass/main.sass */
 .block-restaurants .box-restaurants .box-txt {
   font-size: 16px;
   padding: 15px;
 }
-/* line 146, ../sass/main.sass */
+/* line 148, ../sass/main.sass */
 .block-restaurants .box-restaurants .box-txt .txt-box {
   font-weight: 700;
 }
-/* line 148, ../sass/main.sass */
+/* line 150, ../sass/main.sass */
 .block-restaurants .box-restaurants .box-txt .txt--box {
   font-weight: 400;
 }
-/* line 150, ../sass/main.sass */
+/* line 152, ../sass/main.sass */
+.block-restaurants .box-restaurants .btn-like {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+}
+/* line 156, ../sass/main.sass */
 .block-restaurants .box-restaurants .nouveau {
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -740,7 +770,7 @@ h2 {
   background-color: #86e6c1;
   color: #398a6f;
 }
-/* line 160, ../sass/main.sass */
+/* line 166, ../sass/main.sass */
 .block-restaurants .box-restaurants .img {
   object-fit: cover;
   height: 175px;
@@ -748,20 +778,20 @@ h2 {
   border-top-left-radius: 13px;
   width: 100%;
 }
-/* line 166, ../sass/main.sass */
+/* line 172, ../sass/main.sass */
 .block-restaurants .box-restaurants .block-align-txt {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-/* line 171, ../sass/main.sass */
+/* line 177, ../sass/main.sass */
 footer {
   width: 100%;
   padding-right: 0px;
   background-color: #323232;
 }
-/* line 175, ../sass/main.sass */
+/* line 181, ../sass/main.sass */
 footer .logo-footer {
   color: white;
   font-family: Shrikhand, sans-serif;
@@ -770,7 +800,7 @@ footer .logo-footer {
   padding-bottom: 0;
   padding-right: 0;
 }
-/* line 182, ../sass/main.sass */
+/* line 188, ../sass/main.sass */
 footer ol {
   display: flex;
   flex-direction: column;
@@ -783,18 +813,18 @@ footer ol {
   font-size: 15px;
   margin-bottom: 0px;
 }
-/* line 193, ../sass/main.sass */
+/* line 199, ../sass/main.sass */
 footer ol li {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-/* line 198, ../sass/main.sass */
+/* line 204, ../sass/main.sass */
 footer ol .footer-icon {
   margin-right: 10px;
 }
-/* line 200, ../sass/main.sass */
+/* line 206, ../sass/main.sass */
 footer ol .px {
   padding-left: 7px;
 }
