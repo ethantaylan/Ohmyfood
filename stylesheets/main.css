@@ -26,36 +26,35 @@ label input[type="checkbox"] {
 /* line 18, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox .heart-empty {
   position: absolute;
-  font-size: 30p;
 }
-/* line 22, ../sass/generic-sass/_checkbox.sass */
+/* line 21, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox:hover .heart {
   opacity: 1;
 }
-/* line 24, ../sass/generic-sass/_checkbox.sass */
+/* line 23, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox:hover .heart-empty {
   opacity: 0;
 }
-/* line 29, ../sass/generic-sass/_checkbox.sass */
+/* line 28, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart {
   opacity: 1;
 }
-/* line 31, ../sass/generic-sass/_checkbox.sass */
+/* line 30, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox input[type="checkbox"]:checked ~ .heart-empty {
   opacity: 0;
 }
 
-/* line 35, ../sass/generic-sass/_checkbox.sass */
+/* line 34, ../sass/generic-sass/_checkbox.sass */
 .fill-gradient-linear path {
   fill: url(#linear);
 }
 
-/* line 39, ../sass/generic-sass/_checkbox.sass */
+/* line 38, ../sass/generic-sass/_checkbox.sass */
 .linear-stop1 {
   stop-color: #9356dc;
 }
 
-/* line 43, ../sass/generic-sass/_checkbox.sass */
+/* line 42, ../sass/generic-sass/_checkbox.sass */
 .linear-stop2 {
   stop-color: #ff79da;
 }
@@ -264,9 +263,12 @@ li:hover {
 /* line 48, ../sass/generic-sass/_generic.sass */
 .container {
   min-height: 83.7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-/* line 51, ../sass/generic-sass/_generic.sass */
+/* line 54, ../sass/generic-sass/_generic.sass */
 .btn-like {
   position: absolute;
   width: 1px;
