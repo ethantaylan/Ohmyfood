@@ -66,6 +66,11 @@ header
         background: linear-gradient(0.45turn, #FF79DA -25%, #9356DC 125%)
         color: white
         box-shadow: 0 5px 10px rgb(215, 215, 215)
+        &:hover
+            transform: scale(1.03)
+            transition-duration: 0.3s
+            background: linear-gradient(0.50turn, #fd99e1 -15%, #bd88fd) !important
+            cursor: pointer
 
 h2
     font-family: Roboto, sans-serif
@@ -82,6 +87,10 @@ h2
         position: relative
         align-items: center
         width: 80%
+        &:hover
+            & > .num-icon
+                & > .icon
+                    color: $violet !important
         .btn-txt
             font-family: Roboto, sans-serif
             font-weight: 700
@@ -95,6 +104,9 @@ h2
             display: flex
             justify-content: center
             align-items: center
+            &:hover
+                cursor: pointer
+                background-color: #c98cff30
         .num-icon
             display: flex
             flex-direction: row
@@ -124,6 +136,10 @@ h2
         width: 90%
         border-radius: 13px
         position: relative
+        &:hover
+            cursor: pointer
+            transform: scale(1.01)
+            transition: 0.2s
         .box-txt
             font-size: 16px
             padding: 15px
@@ -184,40 +200,6 @@ footer
         .px
             padding-left: 7px
 
-/* BOUTTON LIKE */
-label input[type="checkbox"]
-    display: none
-
-.custom-checkbox
-    margin-left: 2em
-    position: relative
-    cursor: pointer
-
-.custom-checkbox .fa-heart
-    font-size: 30px
-    position: relative
-    top: 10px
-
-.custom-checkbox .heart-empty
-    position: absolute
-    font-size: 30p
-    top: 10px
-
-.custom-checkbox .heart
-    opacity: 0
-    transition: opacity 0.3s
-
-.custom-checkbox:hover .heart
-    opacity: 1
-
-.custom-checkbox:hover .heart-empty
-    opacity: 0
-
-.custom-checkbox input[type="checkbox"]:checked ~ .heart
-    opacity: 1
-
-.custom-checkbox input[type="checkbox"]:checked ~ .heart-empty
-    opacity: 0
 
 /* RESPONSIVE */
 @import responsive-sass/_main-responsive

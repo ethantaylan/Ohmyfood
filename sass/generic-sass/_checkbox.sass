@@ -1,41 +1,33 @@
-label input[type="checkbox"] 
+
+/* BOUTTON LIKE */
+label input[type="checkbox"]
     display: none
 
-
-.custom-checkbox 
+.custom-checkbox
     margin-left: 2em
     position: relative
     cursor: pointer
+    .fa-heart
+        font-size: 30px
+        position: relative
+        top: 10px
 
+    .heart
+        opacity: 0
+        transition: opacity 0.3s
+        &-empty
+            position: absolute
+            font-size: 30p
+            top: 10px
+    &:hover
+        .heart
+            opacity: 1
+            &-empty
+                opacity: 0
 
-.custom-checkbox .fa-heart 
-    font-size: 30px
-    position: relative
-    top: 10px
-
-
-.custom-checkbox .heart-empty 
-    position: absolute
-    font-size: 30px
-    top: 10px
-
-
-.custom-checkbox .heart 
-    opacity: 0
-    transition: opacity 0.3s
-
-
-.custom-checkbox:hover .heart
-    opacity: 1
-
-
-.custom-checkbox:hover .heart-empty
-    opacity: 0
-
-
-.custom-checkbox input[type="checkbox"]:checked ~ .heart 
-    opacity: 1
-
-
-.custom-checkbox input[type="checkbox"]:checked ~ .heart-empty 
-    opacity: 0
+    input[type="checkbox"]
+        &:checked
+            & ~ .heart
+                opacity: 1
+                &-empty
+                    opacity: 0
