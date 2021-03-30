@@ -129,13 +129,13 @@ label input[type="checkbox"] {
   color: #787878;
 }
 
-/* line 5, ../sass/generic-sass/_hovers.sass */
+/* line 3, ../sass/generic-sass/_hovers.sass */
 li:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-/* line 9, ../sass/generic-sass/_hovers.sass */
+/* line 7, ../sass/generic-sass/_hovers.sass */
 .btn-commander:hover {
   cursor: pointer;
   transform: scale(1.03);
@@ -143,7 +143,7 @@ li:hover {
   background: linear-gradient(0.5turn, #fd99e1 -15%, #bd88fd) !important;
 }
 
-/* line 15, ../sass/generic-sass/_hovers.sass */
+/* line 13, ../sass/generic-sass/_hovers.sass */
 .btn-envoyez:hover {
   transform: scale(1.03);
   transition-duration: 0.3s;
@@ -151,28 +151,44 @@ li:hover {
   cursor: pointer;
 }
 
-/* line 21, ../sass/generic-sass/_hovers.sass */
+/* line 19, ../sass/generic-sass/_hovers.sass */
 .int-name:hover {
   cursor: default;
 }
 
-/* line 24, ../sass/generic-sass/_hovers.sass */
+/* line 22, ../sass/generic-sass/_hovers.sass */
 .int-name-block-message:hover {
   cursor: default;
 }
 
-/* line 27, ../sass/generic-sass/_hovers.sass */
+/* line 25, ../sass/generic-sass/_hovers.sass */
 .btn:hover {
   cursor: pointer;
   transform: scale(1.01);
   transition: 0.2s;
 }
 
-/* line 32, ../sass/generic-sass/_hovers.sass */
+/* line 30, ../sass/generic-sass/_hovers.sass */
 .menu-button:hover {
   cursor: pointer;
-  transform: scale(1.01);
-  transition: 0.2s;
+  transform: scale(1.03);
+}
+
+/* line 34, ../sass/generic-sass/_hovers.sass */
+.menu-button:hover > .menu-btn-like {
+  display: flex !important;
+  opacity: 1 !important;
+  transition: 1s !important;
+  height: 65px !important;
+  width: 25% !important;
+  transform: translate(50px 0px);
+  cursor: pointer;
+}
+
+/* line 43, ../sass/generic-sass/_hovers.sass */
+.menu-button:hover > .menu-btn-like > .check-icon {
+  transform: rotate(0deg) !important;
+  transition-duration: 1s !important;
 }
 
 @keyframes fadein {
@@ -273,6 +289,12 @@ li:hover {
   position: absolute;
   width: 1px;
   height: 1px;
+}
+
+/* line 59, ../sass/generic-sass/_generic.sass */
+.hide {
+  display: none;
+  opacity: 0;
 }
 
 /* line 7, ../sass/_contact.sass */
@@ -520,35 +542,63 @@ li:hover {
   padding-bottom: 10px;
   padding-right: 15px;
   display: flex;
-  flex-direction: column;
   border-radius: 20px;
   width: 80%;
   justify-content: space-between;
+  -webkit-animation: fadein 0.8s;
+  align-items: center;
   height: 45px;
-  -webkit-animation: fadein 2s;
 }
 /* line 84, ../sass/_menu.sass */
+.block-entrees .menu-button .btn-txt {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  height: 100%;
+}
+/* line 90, ../sass/_menu.sass */
+.block-entrees .menu-button .menu-btn-like {
+  display: flex;
+  background-color: #99e2d0;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  margin-right: -16px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 1px;
+  margin-left: 10px;
+  opacity: 0;
+}
+/* line 102, ../sass/_menu.sass */
+.block-entrees .menu-button .menu-btn-like .check-icon {
+  color: #99e2d0;
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+  transform: rotate(45deg);
+}
+/* line 108, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   font-size: 14px;
-  -webkit-animation: fadein 1s;
+  -webkit-animation: fadein 0.6s;
 }
-/* line 91, ../sass/_menu.sass */
+/* line 114, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix .menu- {
   font-size: 15px;
 }
-/* line 93, ../sass/_menu.sass */
+/* line 116, ../sass/_menu.sass */
 .block-entrees .menu-plus-prix .menu-- {
   text-overflow: ellipsis;
   overflow: hidden;
-  width: 85%;
   white-space: nowrap;
 }
 
-/* line 99, ../sass/_menu.sass */
+/* line 121, ../sass/_menu.sass */
 .btn-commander {
   margin-top: 20px;
   font-family: Roboto, sans-serif;
