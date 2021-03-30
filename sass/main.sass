@@ -2,7 +2,6 @@
 
 @import generic-sass/checkbox
 @import generic-sass/spaces
-@import generic-sass/hovers
 @import generic-sass/variables
 @import generic-sass/generic
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap')
@@ -88,6 +87,9 @@ h2
         align-items: center
         width: 80%
         &:hover
+            cursor: pointer
+            transform: scale(1.01)
+            transition: 0.2s
             & > .num-icon
                 & > .icon
                     color: $violet !important
@@ -201,6 +203,9 @@ footer
             display: flex
             flex-direction: row
             align-items: center
+            &:hover
+                text-decoration: underline
+                cursor: pointer
         .footer-icon
             margin-right: 10px
         .px

@@ -1,6 +1,5 @@
 @import generic-sass/checkbox
 @import generic-sass/spaces
-@import generic-sass/hovers
 @import generic-sass/variables
 @import generic-sass/generic
 
@@ -49,6 +48,8 @@
                 align-items: center
                 margin: 8px
                 width: 100px
+                &:hover
+                    cursor: default
             .underline
                 width: auto
                 height: 75%
@@ -73,6 +74,8 @@
             .int-name-block-message
                 width: 100%
                 padding-bottom: 10px
+                &:hover
+                    cursor: default
             .underline-block-message
                 width: 80%
                 height: 1px
@@ -122,3 +125,8 @@
         color: white
         box-shadow: 0 5px 10px rgb(215, 215, 215)
         text-align: center
+        &:hover
+            transform: scale(1.03)
+            transition-duration: 0.3s
+            background: linear-gradient(0.50turn, #fd99e1 -15%, #bd88fd) !important
+            cursor: pointer
