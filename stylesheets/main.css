@@ -1,60 +1,59 @@
 /* REPONSIVE DE LA PAGE PRINCIPALE */
 /* BOUTTON LIKE */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 /* line 3, ../sass/generic-sass/_checkbox.sass */
-label input[type="checkbox"] {
+label input[type='checkbox'] {
   display: none;
 }
 
 /* line 6, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox {
-  margin-left: 2em;
   position: relative;
   cursor: pointer;
 }
-/* line 10, ../sass/generic-sass/_checkbox.sass */
+/* line 9, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox .fa-heart {
   font-size: 30px;
   position: relative;
 }
-/* line 15, ../sass/generic-sass/_checkbox.sass */
+/* line 13, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox .heart {
   opacity: 0;
   transition: opacity 0.3s;
 }
-/* line 18, ../sass/generic-sass/_checkbox.sass */
+/* line 16, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox .heart-empty {
   position: absolute;
 }
-/* line 21, ../sass/generic-sass/_checkbox.sass */
+/* line 19, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox:hover .heart {
   opacity: 1;
 }
-/* line 23, ../sass/generic-sass/_checkbox.sass */
+/* line 21, ../sass/generic-sass/_checkbox.sass */
 .custom-checkbox:hover .heart-empty {
   opacity: 0;
 }
-/* line 28, ../sass/generic-sass/_checkbox.sass */
-.custom-checkbox input[type="checkbox"]:checked ~ .heart {
+/* line 26, ../sass/generic-sass/_checkbox.sass */
+.custom-checkbox input[type='checkbox']:checked ~ .heart {
   opacity: 1;
 }
-/* line 30, ../sass/generic-sass/_checkbox.sass */
-.custom-checkbox input[type="checkbox"]:checked ~ .heart-empty {
+/* line 28, ../sass/generic-sass/_checkbox.sass */
+.custom-checkbox input[type='checkbox']:checked ~ .heart-empty {
   opacity: 0;
 }
 
-/* line 34, ../sass/generic-sass/_checkbox.sass */
+/* line 31, ../sass/generic-sass/_checkbox.sass */
 .fill-gradient-linear path {
   fill: url(#linear);
 }
 
-/* line 38, ../sass/generic-sass/_checkbox.sass */
+/* line 34, ../sass/generic-sass/_checkbox.sass */
 .linear-stop1 {
   stop-color: #9356dc;
 }
 
-/* line 42, ../sass/generic-sass/_checkbox.sass */
+/* line 37, ../sass/generic-sass/_checkbox.sass */
 .linear-stop2 {
   stop-color: #ff79da;
 }
@@ -209,20 +208,24 @@ label input[type="checkbox"] {
   min-height: 83.7vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
-/* line 54, ../sass/generic-sass/_generic.sass */
+/* line 53, ../sass/generic-sass/_generic.sass */
 .btn-like {
   position: absolute;
   width: 1px;
   height: 1px;
 }
 
-/* line 59, ../sass/generic-sass/_generic.sass */
+/* line 58, ../sass/generic-sass/_generic.sass */
 .hide {
   display: none;
   opacity: 0;
+}
+
+/* line 62, ../sass/generic-sass/_generic.sass */
+.margin-fif {
+  margin: 15px;
 }
 
 /* line 6, ../sass/_contact.sass */
@@ -357,7 +360,8 @@ label input[type="checkbox"] {
   margin: 0px;
 }
 /* line 103, ../sass/_contact.sass */
-.block-contact .int-contact textarea, .block-contact .int-contact input {
+.block-contact .int-contact textarea,
+.block-contact .int-contact input {
   padding-top: 10px;
   padding-bottom: 10px;
   display: flex;
@@ -379,7 +383,7 @@ label input[type="checkbox"] {
   padding: 12px 17px;
   border: 0;
   font-size: 14px;
-  background: linear-gradient(0.45turn, #FF79DA -25%, #9356DC 125%);
+  background: linear-gradient(0.45turn, #ff79da -25%, #9356dc 125%);
   color: white;
   box-shadow: 0 5px 10px #d7d7d7;
   text-align: center;
@@ -450,7 +454,7 @@ label input[type="checkbox"] {
 }
 
 /* line 48, ../sass/_menu.sass */
-.entrees {
+.menu {
   text-transform: uppercase;
   margin-left: 20px;
   margin-top: 0px;
@@ -459,7 +463,7 @@ label input[type="checkbox"] {
 }
 
 /* line 55, ../sass/_menu.sass */
-.block-entrees {
+.block-menu-int {
   display: flex;
   background-color: #ebebeb;
   justify-content: center;
@@ -468,7 +472,7 @@ label input[type="checkbox"] {
   opacity: 100%;
 }
 /* line 62, ../sass/_menu.sass */
-.block-entrees .line {
+.block-menu-int .line {
   border-radius: 20px;
   background-color: #99e2d0;
   width: 45px;
@@ -477,8 +481,7 @@ label input[type="checkbox"] {
   align-self: flex-start;
 }
 /* line 69, ../sass/_menu.sass */
-.block-entrees .menu-button {
-  margin-top: 20px;
+.block-menu-int .menu-button {
   background-color: white;
   padding-left: 15px;
   padding-top: 10px;
@@ -492,36 +495,36 @@ label input[type="checkbox"] {
   align-items: center;
   height: 45px;
 }
-/* line 83, ../sass/_menu.sass */
-.block-entrees .menu-button:hover {
+/* line 82, ../sass/_menu.sass */
+.block-menu-int .menu-button:hover {
   cursor: pointer;
   transform: scale(1.03);
 }
-/* line 86, ../sass/_menu.sass */
-.block-entrees .menu-button:hover > .menu-btn-like {
+/* line 85, ../sass/_menu.sass */
+.block-menu-int .menu-button:hover > .menu-btn-like {
   display: flex !important;
   opacity: 1 !important;
-  transition: 1s !important;
-  height: 65px !important;
+  transition: 0.9s !important;
+  height: 66px !important;
   width: 25% !important;
   transform: translate(5px 0px);
   cursor: pointer;
 }
-/* line 94, ../sass/_menu.sass */
-.block-entrees .menu-button:hover > .menu-btn-like > .check-icon {
+/* line 93, ../sass/_menu.sass */
+.block-menu-int .menu-button:hover > .menu-btn-like > .check-icon {
   transform: rotate(0deg) !important;
   transition-duration: 1s !important;
 }
-/* line 97, ../sass/_menu.sass */
-.block-entrees .menu-button .btn-txt {
+/* line 96, ../sass/_menu.sass */
+.block-menu-int .menu-button .btn-txt {
   display: flex;
   flex-direction: column;
   width: 100%;
   justify-content: space-between;
   height: 100%;
 }
-/* line 103, ../sass/_menu.sass */
-.block-entrees .menu-button .menu-btn-like {
+/* line 102, ../sass/_menu.sass */
+.block-menu-int .menu-button .menu-btn-like {
   display: flex;
   background-color: #99e2d0;
   align-items: center;
@@ -534,51 +537,50 @@ label input[type="checkbox"] {
   margin-left: 10px;
   opacity: 0;
 }
-/* line 115, ../sass/_menu.sass */
-.block-entrees .menu-button .menu-btn-like .check-icon {
+/* line 114, ../sass/_menu.sass */
+.block-menu-int .menu-button .menu-btn-like .check-icon {
   color: #99e2d0;
   padding: 5px;
   background-color: white;
   border-radius: 50%;
   transform: rotate(45deg);
 }
-/* line 121, ../sass/_menu.sass */
-.block-entrees .menu-plus-prix {
+/* line 120, ../sass/_menu.sass */
+.block-menu-int .menu-plus-prix {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   font-size: 14px;
   -webkit-animation: fadein 0.6s;
 }
-/* line 127, ../sass/_menu.sass */
-.block-entrees .menu-plus-prix .menu- {
+/* line 126, ../sass/_menu.sass */
+.block-menu-int .menu-plus-prix .menu- {
   font-size: 15px;
 }
-/* line 129, ../sass/_menu.sass */
-.block-entrees .menu-plus-prix .menu-- {
+/* line 128, ../sass/_menu.sass */
+.block-menu-int .menu-plus-prix .menu-- {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
 
-/* line 134, ../sass/_menu.sass */
+/* line 133, ../sass/_menu.sass */
 .btn-commander {
-  margin-top: 20px;
   font-family: Roboto, sans-serif;
   width: auto;
   border-radius: 50px;
   padding: 12px 17px;
   border: 0;
   font-size: 14px;
-  background: linear-gradient(0.45turn, #FF79DA -25%, #9356DC 125%);
+  background: linear-gradient(0.45turn, #ff79da -25%, #9356dc 125%);
   color: white;
   box-shadow: 0 5px 10px #d7d7d7;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 35px;
   padding-left: 30px;
   padding-right: 30px;
 }
-/* line 149, ../sass/_menu.sass */
+/* line 147, ../sass/_menu.sass */
 .btn-commander:hover {
   cursor: pointer;
   transform: scale(1.03);
@@ -597,7 +599,8 @@ label input[type="checkbox"] {
   }
 }
 /* line 13, ../sass/main.sass */
-body, html {
+body,
+html {
   min-width: 320px;
   margin: 0px;
   height: 100%;
@@ -665,7 +668,7 @@ header .nav-arrow {
   padding: 12px 17px;
   border: 0;
   font-size: 14px;
-  background: linear-gradient(0.45turn, #FF79DA -25%, #9356DC 125%);
+  background: linear-gradient(0.45turn, #ff79da -25%, #9356dc 125%);
   color: white;
   box-shadow: 0 5px 10px #d7d7d7;
 }
@@ -921,21 +924,20 @@ footer ol .px {
   /* line 32, ../sass/responsive-sass/_main-responsive.sass */
   .img {
     width: 100% !important;
-    height: 300px !important;
   }
 
-  /* line 36, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 35, ../sass/responsive-sass/_main-responsive.sass */
   .txt-restaurants-desktop {
     display: block !important;
     margin-left: 20px !important;
   }
 
-  /* line 40, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 39, ../sass/responsive-sass/_main-responsive.sass */
   .txt-restaurants-mobile-tablette {
     display: none;
   }
 
-  /* line 43, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 42, ../sass/responsive-sass/_main-responsive.sass */
   .logo-footer {
     padding-top: 10px;
     padding-right: 0px;
@@ -943,7 +945,7 @@ footer ol .px {
     justify-content: center;
   }
 
-  /* line 49, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 48, ../sass/responsive-sass/_main-responsive.sass */
   ol {
     display: flex;
     flex-direction: row !important;
@@ -957,32 +959,27 @@ footer ol .px {
   }
 }
 @media screen and (min-width: 769px) and (max-width: 880px) {
-  /* line 61, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 60, ../sass/responsive-sass/_main-responsive.sass */
   .btn {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
   }
 
-  /* line 66, ../sass/responsive-sass/_main-responsive.sass */
-  .btn-txt {
-    padding-top: 10px;
-  }
-
-  /* line 69, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 65, ../sass/responsive-sass/_main-responsive.sass */
   .num-icon {
     width: 140px !important;
     justify-content: space-between !important;
     padding-top: 10px;
   }
 
-  /* line 74, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 70, ../sass/responsive-sass/_main-responsive.sass */
   .number {
     position: absolute;
     top: 25px;
   }
 
-  /* line 78, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 74, ../sass/responsive-sass/_main-responsive.sass */
   .icon {
     position: absolute;
     left: 115px;
