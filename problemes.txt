@@ -1,11 +1,2 @@
-mobile / tablette
+Peut etre remplacer le bouton like hover en bouton checked ????
 
-1-coeur qui ne se rempli pas en degrader 
-
-desktop
-
-
-
-mobile et desktop:
-
-1-Probleme lié au footer, footer non coller au bottom
