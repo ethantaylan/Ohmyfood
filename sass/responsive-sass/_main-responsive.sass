@@ -5,6 +5,9 @@
     .txt-restaurants-desktop
         display: none
 
+    .btn
+        margin: 0px
+
 @media screen and (min-width: 769px)
 
     .block-commander
@@ -45,9 +48,6 @@
         width: 100%
         display: flex
         justify-content: center
-
-    .btn
-        margin: 20px
 
     .block-restaurants
         flex-direction: row !important
@@ -107,30 +107,6 @@
         display: flex
         align-items: flex-end
         justify-content: center
-    
-    .block-fonctionnement
-        display: flex
-        flex-direction: row !important
-
-@media screen and (min-width: 769px) and (max-width: 880px)
-    .btn
-        display: flex !important
-        flex-direction: column !important
-        align-items: center !important
-
-    .num-icon
-        width: 140px !important
-        justify-content: space-between !important
-        padding-top: 10px
-
-    .number
-        position: absolute
-        top: 25px
-
-    .icon
-        position: absolute
-        left: 83%
-        top: 20px
 
 @media screen and (min-width: 881px)
     body
@@ -177,4 +153,14 @@
     .block-menu-int
         height: 394px !important
     
-    
+    @media screen and (min-width: 1024px)       
+        .block-fonctionnement
+            display: flex
+            flex-direction: row !important
+
+        .number
+            margin-right: 10px !important
+
+        .btn
+            margin: 10px
+        
