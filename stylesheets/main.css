@@ -653,25 +653,34 @@ a:-webkit-any-link {
   }
 }
 @media screen and (min-width: 769px) {
-  /* line 13, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 12, ../sass/responsive-sass/_main-responsive.sass */
+  .footer-contact {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* line 19, ../sass/responsive-sass/_main-responsive.sass */
   .block-commander {
     height: 180px !important;
     align-items: center !important;
   }
 
-  /* line 17, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 23, ../sass/responsive-sass/_main-responsive.sass */
   .btn-commander {
     height: 40px !important;
     display: flex !important;
   }
 
-  /* line 21, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 27, ../sass/responsive-sass/_main-responsive.sass */
   .menu-button {
     height: 100% !important;
     flex-direction: column !important;
   }
 
-  /* line 25, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 31, ../sass/responsive-sass/_main-responsive.sass */
   .menu-btn-like {
     display: flex;
     background-color: #99e2d0;
@@ -685,7 +694,7 @@ a:-webkit-any-link {
     opacity: 0;
   }
 
-  /* line 37, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 43, ../sass/responsive-sass/_main-responsive.sass */
   .menu-button:hover > .menu-btn-like {
     height: 30px !important;
     border-radius: 20px;
@@ -697,14 +706,14 @@ a:-webkit-any-link {
     margin-bottom: 0px !important;
   }
 
-  /* line 47, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 53, ../sass/responsive-sass/_main-responsive.sass */
   nav {
     width: 100%;
     display: flex;
     justify-content: center;
   }
 
-  /* line 52, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 58, ../sass/responsive-sass/_main-responsive.sass */
   .block-restaurants {
     flex-direction: row !important;
     width: 100% !important;
@@ -712,30 +721,30 @@ a:-webkit-any-link {
     align-items: center;
   }
 
-  /* line 58, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 64, ../sass/responsive-sass/_main-responsive.sass */
   .box-restaurants {
     width: 20% !important;
     margin: 20px;
     height: 265px !important;
   }
 
-  /* line 63, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 69, ../sass/responsive-sass/_main-responsive.sass */
   .img {
     width: 100% !important;
   }
 
-  /* line 66, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 72, ../sass/responsive-sass/_main-responsive.sass */
   .txt-restaurants-desktop {
     display: block !important;
     margin-left: 20px !important;
   }
 
-  /* line 70, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 76, ../sass/responsive-sass/_main-responsive.sass */
   .txt-restaurants-mobile-tablette {
     display: none;
   }
 
-  /* line 73, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 79, ../sass/responsive-sass/_main-responsive.sass */
   .logo-footer {
     padding-top: 10px;
     padding-right: 0px;
@@ -743,7 +752,7 @@ a:-webkit-any-link {
     justify-content: center;
   }
 
-  /* line 79, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 85, ../sass/responsive-sass/_main-responsive.sass */
   ol {
     display: flex;
     flex-direction: row !important;
@@ -756,27 +765,27 @@ a:-webkit-any-link {
     align-items: center !important;
   }
 
-  /* line 90, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 96, ../sass/responsive-sass/_main-responsive.sass */
   .block-menu-int {
     flex-direction: row;
     align-items: baseline;
     white-space: wrap;
   }
 
-  /* line 95, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 101, ../sass/responsive-sass/_main-responsive.sass */
   .block-menu-int .menu-plus-prix .menu-- {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: unset;
   }
 
-  /* line 100, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 106, ../sass/responsive-sass/_main-responsive.sass */
   .menu-- {
     justify-content: flex-end;
     margin-top: 5px;
   }
 
-  /* line 104, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 110, ../sass/responsive-sass/_main-responsive.sass */
   .prix {
     justify-content: flex-end;
     height: 40px;
@@ -786,53 +795,58 @@ a:-webkit-any-link {
   }
 }
 @media screen and (min-width: 881px) {
-  /* line 112, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 118, ../sass/responsive-sass/_main-responsive.sass */
   body {
     width: 80%;
     margin: 0 auto !important;
   }
 
-  /* line 116, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 122, ../sass/responsive-sass/_main-responsive.sass */
   .block-de-titres {
     border-radius: 20px;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
   }
 
-  /* line 121, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 127, ../sass/responsive-sass/_main-responsive.sass */
   .block-restaurants {
     border-radius: 20px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
 
-  /* line 126, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 132, ../sass/responsive-sass/_main-responsive.sass */
+  .block-top-contact {
+    border-radius: 10px;
+  }
+
+  /* line 135, ../sass/responsive-sass/_main-responsive.sass */
   .txt-restaurants-desktop {
     display: none;
   }
 
-  /* line 129, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 138, ../sass/responsive-sass/_main-responsive.sass */
   .txt-restaurants {
     display: block;
   }
 
-  /* line 132, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 141, ../sass/responsive-sass/_main-responsive.sass */
   .block-position {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
   }
 
-  /* line 136, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 145, ../sass/responsive-sass/_main-responsive.sass */
   header {
     border-radius: 20px;
   }
 
-  /* line 139, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 148, ../sass/responsive-sass/_main-responsive.sass */
   .header-shadow {
     box-shadow: unset;
   }
 
-  /* line 142, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 151, ../sass/responsive-sass/_main-responsive.sass */
   .img-page-restaurant {
     margin: 0;
     padding: 0;
@@ -845,24 +859,24 @@ a:-webkit-any-link {
     border-top-left-radius: 20px;
   }
 
-  /* line 153, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 162, ../sass/responsive-sass/_main-responsive.sass */
   .block-menu-int {
     height: 394px !important;
   }
 }
 @media screen and (min-width: 881px) and (min-width: 1024px) {
-  /* line 157, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 166, ../sass/responsive-sass/_main-responsive.sass */
   .block-fonctionnement {
     display: flex;
     flex-direction: row !important;
   }
 
-  /* line 161, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 170, ../sass/responsive-sass/_main-responsive.sass */
   .number {
     margin-right: 10px !important;
   }
 
-  /* line 164, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 173, ../sass/responsive-sass/_main-responsive.sass */
   .btn {
     margin: 10px;
   }
