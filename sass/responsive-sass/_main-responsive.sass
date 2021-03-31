@@ -56,6 +56,59 @@
         margin-top: 20px
         align-items: center !important
 
+    .container
+        min-height: unset
+
+    .block-menu-int
+        flex-direction: row 
+        align-items: baseline
+        white-space: wrap
+
+    .menu-button
+        width: 80%
+        align-items: center
+        height: 100%
+
+    .menu-button:hover
+        height: 100%
+        transition: 2s
+        flex-direction: column
+        align-items: center
+        & > .menu-btn-like
+            opacity: 1 !important
+            transition: 0.9s !important
+            width: 50% !important
+            transform: translate(5px 0px)
+            cursor: pointer
+            border-radius: 10px
+            margin-left: 0px
+            margin-right: 0px
+            margin-top: 10px
+            padding-top: 5px
+            padding-bottom: 5px
+            height: unset
+            align-self: center
+            & > .check-icon
+                .btn-txt
+                    height: 100%
+                    justify-content: space-around 
+
+.block-menu-int .menu-plus-prix .menu-- 
+    text-overflow: ellipsis
+    overflow: hidden
+    white-space: unset
+
+.menu-- 
+    justify-content: flex-end
+    margin-top: 5px
+
+.prix
+    justify-content: flex-end
+    height: 40px
+    display: flex
+    align-items: flex-end
+    justify-content: center
+
 @media screen and (min-width: 769px) and (max-width: 880px)
     .btn
         display: flex !important
