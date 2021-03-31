@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 768px)
+@media screen and (max-width: 768px)
     .txt-restaurants-mobile-tablette
         align-self: flex-start
 
@@ -6,21 +6,51 @@
         display: none
 
 @media screen and (min-width: 769px)
+
+    .block-commander
+        height: 180px !important
+        align-items: center !important
+
+    .btn-commander
+        height: 40px !important
+        display: flex !important
+
+    .menu-button
+        height: 100% !important
+        flex-direction: column !important
+
+    .menu-btn-like
+        display: flex
+        background-color: $turquoise
+        align-items: center
+        justify-content: center
+        height: 1px !important
+        margin-right: -16px
+        border-top-right-radius: 20px
+        border-bottom-right-radius: 20px
+        margin-left: 10px
+        opacity: 0
+
+    .menu-button:hover > .menu-btn-like
+        height: 30px !important
+        border-radius: 20px
+        margin-top: 10px !important
+        margin-right: 0px !important
+        margin-left: 0px !important
+        padding-left: 30%
+        padding-right: 30%
+        margin-bottom: 0px !important
+
     nav
         width: 100%
         display: flex
         justify-content: center
 
-    .block-fonctionnement
-        display: flex
-        flex-direction: row
-        width: 100%
-
     .btn
         margin: 20px
 
     .block-restaurants
-        flex-direction: row
+        flex-direction: row !important
         width: 100% !important
         justify-content: space-between
         align-items: center
@@ -28,6 +58,7 @@
     .box-restaurants
         width: 20% !important
         margin: 20px
+        height: 265px !important
 
     .img
         width: 100% !important
@@ -56,58 +87,30 @@
         margin-top: 20px
         align-items: center !important
 
-    .container
-        min-height: unset
-
     .block-menu-int
         flex-direction: row 
         align-items: baseline
         white-space: wrap
 
-    .menu-button
-        width: 80%
-        align-items: center
-        height: 100%
+    .block-menu-int .menu-plus-prix .menu-- 
+        text-overflow: ellipsis
+        overflow: hidden
+        white-space: unset
 
-    .menu-button:hover
-        height: 100%
-        transition: 2s
-        flex-direction: column
-        align-items: center
-        & > .menu-btn-like
-            opacity: 1 !important
-            transition: 0.9s !important
-            width: 50% !important
-            transform: translate(5px 0px)
-            cursor: pointer
-            border-radius: 10px
-            margin-left: 0px
-            margin-right: 0px
-            margin-top: 10px
-            padding-top: 5px
-            padding-bottom: 5px
-            height: unset
-            align-self: center
-            & > .check-icon
-                .btn-txt
-                    height: 100%
-                    justify-content: space-around 
+    .menu-- 
+        justify-content: flex-end
+        margin-top: 5px
 
-.block-menu-int .menu-plus-prix .menu-- 
-    text-overflow: ellipsis
-    overflow: hidden
-    white-space: unset
-
-.menu-- 
-    justify-content: flex-end
-    margin-top: 5px
-
-.prix
-    justify-content: flex-end
-    height: 40px
-    display: flex
-    align-items: flex-end
-    justify-content: center
+    .prix
+        justify-content: flex-end
+        height: 40px
+        display: flex
+        align-items: flex-end
+        justify-content: center
+    
+    .block-fonctionnement
+        display: flex
+        flex-direction: row !important
 
 @media screen and (min-width: 769px) and (max-width: 880px)
     .btn
@@ -126,5 +129,52 @@
 
     .icon
         position: absolute
-        left: 115px
+        left: 83%
         top: 20px
+
+@media screen and (min-width: 881px)
+    body
+        width: 80%
+        margin: 0 auto !important
+
+    .block-de-titres
+        border-radius: 20px
+        border-top-right-radius: 0
+        border-top-left-radius: 0
+
+    .block-restaurants
+        border-radius: 20px
+        border-bottom-left-radius: 0
+        border-bottom-right-radius: 0
+
+    .txt-restaurants-desktop
+        display: none
+
+    .txt-restaurants
+        display: block
+
+    .block-position
+        border-top-right-radius: 20px
+        border-top-left-radius: 20px
+
+    header
+        border-radius: 20px 
+
+    .header-shadow
+        box-shadow: unset
+
+    .img-page-restaurant
+        margin: 0
+        padding: 0
+        position: absolute
+        z-index: -999
+        width: 80%
+        height: 210px
+        object-fit: cover
+        border-top-right-radius: 20px
+        border-top-left-radius: 20px
+
+    .block-menu-int
+        height: 394px !important
+    
+    

@@ -108,24 +108,34 @@ label input[type="checkbox"] {
   padding: 0;
 }
 
-/* line 6, ../sass/generic-sass/_variables.sass */
+/* line 8, ../sass/generic-sass/_variables.sass */
 .violet {
   color: #9356dc;
 }
 
-/* line 9, ../sass/generic-sass/_variables.sass */
+/* line 11, ../sass/generic-sass/_variables.sass */
 .rose {
   color: #ff79da;
 }
 
-/* line 12, ../sass/generic-sass/_variables.sass */
+/* line 14, ../sass/generic-sass/_variables.sass */
 .turquoise {
   color: #99e2d0;
 }
 
-/* line 15, ../sass/generic-sass/_variables.sass */
+/* line 17, ../sass/generic-sass/_variables.sass */
 .dimgray {
   color: #787878;
+}
+
+/* line 20, ../sass/generic-sass/_variables.sass */
+.white {
+  color: #fff;
+}
+
+/* line 23, ../sass/generic-sass/_variables.sass */
+.black {
+  color: #000000;
 }
 
 /* line 1, ../sass/generic-sass/_generic.sass */
@@ -194,36 +204,40 @@ label input[type="checkbox"] {
 }
 
 /* line 42, ../sass/generic-sass/_generic.sass */
-.no-decoration:visited {
+a:-webkit-any-link {
   color: inherit;
 }
 
 /* line 45, ../sass/generic-sass/_generic.sass */
+.no-decoration:visited {
+  color: white;
+}
+
+/* line 48, ../sass/generic-sass/_generic.sass */
 .header-shadow {
   box-shadow: 0px 0px 5px gray;
 }
 
-/* line 48, ../sass/generic-sass/_generic.sass */
+/* line 51, ../sass/generic-sass/_generic.sass */
 .container {
-  min-height: 83.7vh;
   display: flex;
   flex-direction: column;
 }
 
-/* line 53, ../sass/generic-sass/_generic.sass */
+/* line 55, ../sass/generic-sass/_generic.sass */
 .btn-like {
   position: absolute;
   width: 1px;
   height: 1px;
 }
 
-/* line 58, ../sass/generic-sass/_generic.sass */
+/* line 60, ../sass/generic-sass/_generic.sass */
 .hide {
   display: none;
   opacity: 0;
 }
 
-/* line 62, ../sass/generic-sass/_generic.sass */
+/* line 64, ../sass/generic-sass/_generic.sass */
 .margin-fif {
   margin: 15px;
 }
@@ -412,11 +426,17 @@ label input[type="checkbox"] {
 }
 
 /* line 18, ../sass/_menu.sass */
+.fa-arrow {
+  overflow: visible;
+  color: black;
+}
+
+/* line 22, ../sass/_menu.sass */
 .block-image {
   height: 180px;
 }
 
-/* line 21, ../sass/_menu.sass */
+/* line 25, ../sass/_menu.sass */
 .img-page-restaurant {
   width: 100%;
   object-fit: cover;
@@ -428,7 +448,7 @@ label input[type="checkbox"] {
   height: 210px;
 }
 
-/* line 30, ../sass/_menu.sass */
+/* line 34, ../sass/_menu.sass */
 .block-menu {
   background-color: #ebebeb;
   display: flex;
@@ -439,7 +459,7 @@ label input[type="checkbox"] {
   border-top-right-radius: 35px;
 }
 
-/* line 39, ../sass/_menu.sass */
+/* line 43, ../sass/_menu.sass */
 .txt-plus-icon {
   font-size: 20px;
   display: flex;
@@ -447,12 +467,12 @@ label input[type="checkbox"] {
   justify-content: space-between;
   width: 90%;
 }
-/* line 45, ../sass/_menu.sass */
+/* line 49, ../sass/_menu.sass */
 .txt-plus-icon .txt-delice {
   letter-spacing: 0.5px;
 }
 
-/* line 48, ../sass/_menu.sass */
+/* line 52, ../sass/_menu.sass */
 .menu {
   text-transform: uppercase;
   margin-left: 20px;
@@ -461,16 +481,15 @@ label input[type="checkbox"] {
   align-self: flex-start;
 }
 
-/* line 55, ../sass/_menu.sass */
+/* line 59, ../sass/_menu.sass */
 .block-menu-int {
   display: flex;
   background-color: #ebebeb;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  opacity: 100%;
 }
-/* line 62, ../sass/_menu.sass */
+/* line 65, ../sass/_menu.sass */
 .block-menu-int .line {
   border-radius: 20px;
   background-color: #99e2d0;
@@ -479,7 +498,7 @@ label input[type="checkbox"] {
   margin-left: 20px;
   align-self: flex-start;
 }
-/* line 69, ../sass/_menu.sass */
+/* line 72, ../sass/_menu.sass */
 .block-menu-int .menu-button {
   background-color: white;
   padding-left: 15px;
@@ -494,13 +513,13 @@ label input[type="checkbox"] {
   -webkit-animation: fadein 0.8s;
   align-items: center;
 }
-/* line 82, ../sass/_menu.sass */
+/* line 85, ../sass/_menu.sass */
 .block-menu-int .menu-button:hover {
   cursor: pointer;
   transform: scale(1.02);
   transition: 1s;
 }
-/* line 86, ../sass/_menu.sass */
+/* line 89, ../sass/_menu.sass */
 .block-menu-int .menu-button:hover > .menu-btn-like {
   display: flex !important;
   opacity: 1 !important;
@@ -512,12 +531,12 @@ label input[type="checkbox"] {
   margin-bottom: -10px;
   height: 66px;
 }
-/* line 96, ../sass/_menu.sass */
+/* line 99, ../sass/_menu.sass */
 .block-menu-int .menu-button:hover > .menu-btn-like > .check-icon {
   transform: rotate(0deg) !important;
   transition-duration: 1s !important;
 }
-/* line 99, ../sass/_menu.sass */
+/* line 102, ../sass/_menu.sass */
 .block-menu-int .menu-button .btn-txt {
   display: flex;
   flex-direction: column;
@@ -525,7 +544,7 @@ label input[type="checkbox"] {
   justify-content: space-between;
   height: 100%;
 }
-/* line 105, ../sass/_menu.sass */
+/* line 108, ../sass/_menu.sass */
 .block-menu-int .menu-button .menu-btn-like {
   display: flex;
   background-color: #99e2d0;
@@ -539,7 +558,7 @@ label input[type="checkbox"] {
   margin-left: 10px;
   opacity: 0;
 }
-/* line 117, ../sass/_menu.sass */
+/* line 120, ../sass/_menu.sass */
 .block-menu-int .menu-button .menu-btn-like .check-icon {
   color: #99e2d0;
   padding: 5px;
@@ -547,7 +566,7 @@ label input[type="checkbox"] {
   border-radius: 50%;
   transform: rotate(45deg);
 }
-/* line 123, ../sass/_menu.sass */
+/* line 126, ../sass/_menu.sass */
 .block-menu-int .menu-plus-prix {
   display: flex;
   justify-content: space-between;
@@ -555,24 +574,24 @@ label input[type="checkbox"] {
   font-size: 14px;
   -webkit-animation: fadein 0.6s;
 }
-/* line 129, ../sass/_menu.sass */
+/* line 132, ../sass/_menu.sass */
 .block-menu-int .menu-plus-prix .menu- {
   font-size: 15px;
 }
-/* line 131, ../sass/_menu.sass */
+/* line 134, ../sass/_menu.sass */
 .block-menu-int .menu-plus-prix .menu-- {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
 }
 
-/* line 136, ../sass/_menu.sass */
+/* line 139, ../sass/_menu.sass */
 .block-commander {
   display: flex;
   justify-content: center;
   background-color: #ebebeb;
 }
-/* line 141, ../sass/_menu.sass */
+/* line 144, ../sass/_menu.sass */
 .block-commander .btn-commander {
   display: flex;
   font-family: Roboto, sans-serif;
@@ -589,7 +608,7 @@ label input[type="checkbox"] {
   padding-left: 30px;
   padding-right: 30px;
 }
-/* line 156, ../sass/_menu.sass */
+/* line 159, ../sass/_menu.sass */
 .block-commander .btn-commander:hover {
   cursor: pointer;
   transform: scale(1.03);
@@ -607,7 +626,7 @@ label input[type="checkbox"] {
     transform: translateY(0px);
   }
 }
-/* line 170, ../sass/_menu.sass */
+/* line 173, ../sass/_menu.sass */
 .menu-entrees-desktop,
 .menu-plats-desktop,
 .menu-desserts-desktop {
@@ -617,7 +636,7 @@ label input[type="checkbox"] {
   align-items: center;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   /* line 2, ../sass/responsive-sass/_main-responsive.sass */
   .txt-restaurants-mobile-tablette {
     align-self: flex-start;
@@ -629,56 +648,94 @@ label input[type="checkbox"] {
   }
 }
 @media screen and (min-width: 769px) {
-  /* line 9, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 10, ../sass/responsive-sass/_main-responsive.sass */
+  .block-commander {
+    height: 180px !important;
+    align-items: center !important;
+  }
+
+  /* line 14, ../sass/responsive-sass/_main-responsive.sass */
+  .btn-commander {
+    height: 40px !important;
+    display: flex !important;
+  }
+
+  /* line 18, ../sass/responsive-sass/_main-responsive.sass */
+  .menu-button {
+    height: 100% !important;
+    flex-direction: column !important;
+  }
+
+  /* line 22, ../sass/responsive-sass/_main-responsive.sass */
+  .menu-btn-like {
+    display: flex;
+    background-color: #99e2d0;
+    align-items: center;
+    justify-content: center;
+    height: 1px !important;
+    margin-right: -16px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 10px;
+    opacity: 0;
+  }
+
+  /* line 34, ../sass/responsive-sass/_main-responsive.sass */
+  .menu-button:hover > .menu-btn-like {
+    height: 30px !important;
+    border-radius: 20px;
+    margin-top: 10px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 0px !important;
+  }
+
+  /* line 44, ../sass/responsive-sass/_main-responsive.sass */
   nav {
     width: 100%;
     display: flex;
     justify-content: center;
   }
 
-  /* line 14, ../sass/responsive-sass/_main-responsive.sass */
-  .block-fonctionnement {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-
-  /* line 19, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 49, ../sass/responsive-sass/_main-responsive.sass */
   .btn {
     margin: 20px;
   }
 
-  /* line 22, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 52, ../sass/responsive-sass/_main-responsive.sass */
   .block-restaurants {
-    flex-direction: row;
+    flex-direction: row !important;
     width: 100% !important;
     justify-content: space-between;
     align-items: center;
   }
 
-  /* line 28, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 58, ../sass/responsive-sass/_main-responsive.sass */
   .box-restaurants {
     width: 20% !important;
     margin: 20px;
+    height: 265px !important;
   }
 
-  /* line 32, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 63, ../sass/responsive-sass/_main-responsive.sass */
   .img {
     width: 100% !important;
   }
 
-  /* line 35, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 66, ../sass/responsive-sass/_main-responsive.sass */
   .txt-restaurants-desktop {
     display: block !important;
     margin-left: 20px !important;
   }
 
-  /* line 39, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 70, ../sass/responsive-sass/_main-responsive.sass */
   .txt-restaurants-mobile-tablette {
     display: none;
   }
 
-  /* line 42, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 73, ../sass/responsive-sass/_main-responsive.sass */
   .logo-footer {
     padding-top: 10px;
     padding-right: 0px;
@@ -686,7 +743,7 @@ label input[type="checkbox"] {
     justify-content: center;
   }
 
-  /* line 48, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 79, ../sass/responsive-sass/_main-responsive.sass */
   ol {
     display: flex;
     flex-direction: row !important;
@@ -699,102 +756,132 @@ label input[type="checkbox"] {
     align-items: center !important;
   }
 
-  /* line 59, ../sass/responsive-sass/_main-responsive.sass */
-  .container {
-    min-height: unset;
-  }
-
-  /* line 62, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 90, ../sass/responsive-sass/_main-responsive.sass */
   .block-menu-int {
     flex-direction: row;
     align-items: baseline;
     white-space: wrap;
   }
 
-  /* line 67, ../sass/responsive-sass/_main-responsive.sass */
-  .menu-button {
-    width: 80%;
-    align-items: center;
-    height: 100%;
+  /* line 95, ../sass/responsive-sass/_main-responsive.sass */
+  .block-menu-int .menu-plus-prix .menu-- {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: unset;
   }
 
-  /* line 72, ../sass/responsive-sass/_main-responsive.sass */
-  .menu-button:hover {
-    height: 100%;
-    transition: 2s;
-    flex-direction: column;
-    align-items: center;
+  /* line 100, ../sass/responsive-sass/_main-responsive.sass */
+  .menu-- {
+    justify-content: flex-end;
+    margin-top: 5px;
   }
-  /* line 77, ../sass/responsive-sass/_main-responsive.sass */
-  .menu-button:hover > .menu-btn-like {
-    opacity: 1 !important;
-    transition: 0.9s !important;
-    width: 50% !important;
-    transform: translate(5px 0px);
-    cursor: pointer;
-    border-radius: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    height: unset;
-    align-self: center;
+
+  /* line 104, ../sass/responsive-sass/_main-responsive.sass */
+  .prix {
+    justify-content: flex-end;
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
   }
-  /* line 92, ../sass/responsive-sass/_main-responsive.sass */
-  .menu-button:hover > .menu-btn-like > .check-icon .btn-txt {
-    height: 100%;
-    justify-content: space-around;
+
+  /* line 111, ../sass/responsive-sass/_main-responsive.sass */
+  .block-fonctionnement {
+    display: flex;
+    flex-direction: row !important;
   }
 }
-/* line 96, ../sass/responsive-sass/_main-responsive.sass */
-.block-menu-int .menu-plus-prix .menu-- {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: unset;
-}
-
-/* line 101, ../sass/responsive-sass/_main-responsive.sass */
-.menu-- {
-  justify-content: flex-end;
-  margin-top: 5px;
-}
-
-/* line 105, ../sass/responsive-sass/_main-responsive.sass */
-.prix {
-  justify-content: flex-end;
-  height: 40px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
 @media screen and (min-width: 769px) and (max-width: 880px) {
-  /* line 113, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 116, ../sass/responsive-sass/_main-responsive.sass */
   .btn {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
   }
 
-  /* line 118, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 121, ../sass/responsive-sass/_main-responsive.sass */
   .num-icon {
     width: 140px !important;
     justify-content: space-between !important;
     padding-top: 10px;
   }
 
-  /* line 123, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 126, ../sass/responsive-sass/_main-responsive.sass */
   .number {
     position: absolute;
     top: 25px;
   }
 
-  /* line 127, ../sass/responsive-sass/_main-responsive.sass */
+  /* line 130, ../sass/responsive-sass/_main-responsive.sass */
   .icon {
     position: absolute;
-    left: 115px;
+    left: 83%;
     top: 20px;
+  }
+}
+@media screen and (min-width: 881px) {
+  /* line 136, ../sass/responsive-sass/_main-responsive.sass */
+  body {
+    width: 80%;
+    margin: 0 auto !important;
+  }
+
+  /* line 140, ../sass/responsive-sass/_main-responsive.sass */
+  .block-de-titres {
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  /* line 145, ../sass/responsive-sass/_main-responsive.sass */
+  .block-restaurants {
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  /* line 150, ../sass/responsive-sass/_main-responsive.sass */
+  .txt-restaurants-desktop {
+    display: none;
+  }
+
+  /* line 153, ../sass/responsive-sass/_main-responsive.sass */
+  .txt-restaurants {
+    display: block;
+  }
+
+  /* line 156, ../sass/responsive-sass/_main-responsive.sass */
+  .block-position {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  /* line 160, ../sass/responsive-sass/_main-responsive.sass */
+  header {
+    border-radius: 20px;
+  }
+
+  /* line 163, ../sass/responsive-sass/_main-responsive.sass */
+  .header-shadow {
+    box-shadow: unset;
+  }
+
+  /* line 166, ../sass/responsive-sass/_main-responsive.sass */
+  .img-page-restaurant {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: -999;
+    width: 80%;
+    height: 210px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  /* line 177, ../sass/responsive-sass/_main-responsive.sass */
+  .block-menu-int {
+    height: 394px !important;
   }
 }
 /* line 14, ../sass/main.sass */
