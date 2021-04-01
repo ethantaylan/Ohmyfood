@@ -10,9 +10,9 @@
 
 @media screen and (min-width: 769px)
     .footer-contact
-        position: absolute
-        bottom: 0px
-        left: 0px
+        border-radius: 10px
+        border-bottom-left-radius: 0
+        border-bottom-right-radius: 0
         margin: 0 auto
         width: 100%
 
@@ -24,47 +24,24 @@
         height: 40px !important
         display: flex !important
 
-    .menu-button
-        height: 100% !important
-        flex-direction: column !important
-
-    .menu-btn-like
-        display: flex
-        background-color: $turquoise
-        align-items: center
-        justify-content: center
-        height: 1px !important
-        margin-right: -16px
-        border-top-right-radius: 20px
-        border-bottom-right-radius: 20px
-        margin-left: 10px
-        opacity: 0
-
-    .menu-button:hover > .menu-btn-like
-        height: 30px !important
-        border-radius: 20px
-        margin-top: 10px !important
-        margin-right: 0px !important
-        margin-left: 0px !important
-        padding-left: 30%
-        padding-right: 30%
-        margin-bottom: 0px !important
-
     nav
         width: 100%
         display: flex
         justify-content: center
 
     .block-restaurants
-        flex-direction: row !important
+        display: grid !important
+        grid-template-rows: 50% 50%
+        grid-template-columns: 50% 50%
         width: 100% !important
-        justify-content: space-between
-        align-items: center
+        justify-content: center !important
+        align-items: center !important
+        padding-top: 8px
 
     .box-restaurants
-        width: 20% !important
+        width: 90% !important
         margin: 20px
-        height: 265px !important
+        height: 90% !important
 
     .img
         width: 100% !important
@@ -93,11 +70,6 @@
         margin-top: 20px
         align-items: center !important
 
-    .block-menu-int
-        flex-direction: row 
-        align-items: baseline
-        white-space: wrap
-
     .block-menu-int .menu-plus-prix .menu-- 
         text-overflow: ellipsis
         overflow: hidden
@@ -120,17 +92,14 @@
         margin: 0 auto !important
 
     .block-de-titres
-        border-radius: 20px
+        border-radius: 10px
         border-top-right-radius: 0
         border-top-left-radius: 0
 
     .block-restaurants
-        border-radius: 20px
+        border-radius: 10px
         border-bottom-left-radius: 0
         border-bottom-right-radius: 0
-
-    .block-top-contact
-        border-radius: 10px
 
     .txt-restaurants-desktop
         display: none
@@ -138,9 +107,12 @@
     .txt-restaurants
         display: block
 
+    .block-top-contact
+        display: none
+
     .block-position
-        border-top-right-radius: 20px
-        border-top-left-radius: 20px
+        border-top-right-radius: 10px
+        border-top-left-radius: 10px
 
     header
         border-radius: 20px 
@@ -159,9 +131,6 @@
         border-top-right-radius: 20px
         border-top-left-radius: 20px
 
-    .block-menu-int
-        height: 394px !important
-    
     @media screen and (min-width: 1024px)       
         .block-fonctionnement
             display: flex
