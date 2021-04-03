@@ -92,7 +92,6 @@
             & > .menu-btn-like
                 display: flex !important
                 opacity: 1 !important
-                transition: 0.9s !important
                 width: 20% !important
                 transform: translate(5px 0px)
                 cursor: pointer
@@ -120,12 +119,14 @@
             width: 1px
             margin-left: 10px
             opacity: 0
+            transition: width 0.4s, opacity 0.4s
             .check-icon
                 color: $turquoise
                 padding: 5px
                 background-color: white
                 border-radius: 50%
                 transform: rotate(45deg)
+                transition: transform 0.4s, opacity 0.4s
     .menu-plus-prix
         display: flex
         justify-content: space-between
