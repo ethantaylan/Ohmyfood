@@ -92,15 +92,20 @@
             & > .menu-btn-like
                 display: flex !important
                 opacity: 1 !important
-                width: 20% !important
-                transform: translate(5px 0px)
+                width: 15% !important
+                height: 66px !important
                 cursor: pointer
                 margin-top: -10px
                 margin-bottom: -10px
-                height: 66px
                 & > .check-icon
                     transform: rotate(0deg) !important
                     transition-duration: 1s !important
+                    height: 15px
+                    width: 15px
+                    padding: 5px
+            .btn-txt
+                width: 85%
+                transition-duration: 0.4s
         .btn-txt
             display: flex
             flex-direction: column
@@ -112,7 +117,7 @@
             background-color: $turquoise
             align-items: center
             justify-content: center
-            height: 65px
+            height: 0.1px
             margin-right: -16px
             border-top-right-radius: 20px
             border-bottom-right-radius: 20px
@@ -121,8 +126,9 @@
             opacity: 0
             transition: width 0.4s, opacity 0.4s
             .check-icon
+                width: 0.1px
+                height: 0.1px
                 color: $turquoise
-                padding: 5px
                 background-color: white
                 border-radius: 50%
                 transform: rotate(45deg)
