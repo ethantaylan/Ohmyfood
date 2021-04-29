@@ -11,19 +11,19 @@
   <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
     integrity="sha384-haqrlim99xjfMxRP6EWtafs0sB1WKcMdynwZleuUSwJR0mDeRYbhtY+KPMr+JL6f"
     crossorigin="anonymous"></script>
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 </head>
-<svg class="btn-like">
-  <defs>
-    <linearGradient id="linear">
-      <stop class="linear-stop1" offset="0%"></stop>
-      <stop class="linear-stop2" offset="100%"></stop>
-    </linearGradient>
-  </defs>
-</svg>
-
 <body class="margin-zero padding-zero">
-  <div class="container-acc">
+  <svg class="btn-like">
+    <defs>
+      <linearGradient id="linear">
+        <stop class="linear-stop1" offset="0%"></stop>
+        <stop class="linear-stop2" offset="100%"></stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <main class="container-acc">
     <div class="loader-container">
       <div class="loader"></div>
     </div>
@@ -47,7 +47,7 @@
     </div>
     <h2 class="margin-left fontsize">Fonctionnement</h2>
     <nav>
-      <div class="block-fonctionnement margin-bottom">
+      <section class="block-fonctionnement margin-bottom">
         <div class="btn hover-scale">
           <div class="num-icon">
             <p class="number bold">1</p>
@@ -69,7 +69,7 @@
           </div>
           <p class="btn-txt">Dégustez au restaurant</p>
         </div>
-      </div>
+      </section>
     </nav>
     <h2 class="txt-restaurants-desktop">Restaurants</h2>
     <div class="block-restaurants padding-bottom">
@@ -156,7 +156,6 @@
         </li>
       </ol>
     </footer>
-  </div>
+  </main>
 </body>
-
 </html>
